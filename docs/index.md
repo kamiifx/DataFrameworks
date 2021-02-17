@@ -1,4 +1,4 @@
-## Kron Dataframework
+## Dataframework
 
 This is a group project for Dataframeworks class, based on [Group 18](https://hiof.instructure.com/groups/17589/users).
 Members : Leo Barzinje, Kamyab Akbari, Mostafa Mohammedi.
