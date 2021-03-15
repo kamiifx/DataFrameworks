@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "@types/jest": "^26.0.20"
+  },
+  "dependencies": {
+    "@stencil/core": "2.4.0"
+  }
+}
