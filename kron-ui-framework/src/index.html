@@ -7,8 +7,31 @@
     <link rel="stylesheet" href="/build/kron-ui-framework.css">
     <script type="module" src="/build/kron-ui-framework.esm.js"></script>
     <script nomodule src="/build/kron-ui-framework.js"></script>
+
   </head>
   <body>
-    <my-component first="Stencil" last="'Don't call me a framework' JS"></my-component>
+    
+    <h1> Flex Display component</h1>
+    
+<kron-box displaymode="flex-row-wrap">
+
+ <div> This  </div>
+ <div>  is </div>
+ <div> flex </div>
+ <div> row </div>
+ <div> wrap </div>
+
+</kron-box>
+<div> these two flex grids are made with the same component, but different classname </div>
+<kron-box displaymode="flex-column-wrap">
+
+  <div> This </div>
+  <div> is </div>
+  <div> flex </div>
+  <div> column  </div>
+  <div> wrap  </div>
+ 
+ </kron-box>
+
   </body>
 </html>
