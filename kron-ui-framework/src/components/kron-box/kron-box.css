@@ -1,3 +1,35 @@
-:host {
-  display: block;
+.flex-row-wrap{
+  display: flex;     
+  flex-direction: row;    
+    height: auto;  
+    flex-wrap: wrap;   
+    background-color: white;
+    max-width: 100%;
+
+}
+
+.flex-row-wrap ::slotted(div){
+  width: 250px;
+  height: 250px;
+  background-color: blueviolet;
+  margin: 10px;
+  border: solid 2px black;
+
+}
+
+.flex-column-wrap{
+  display: flex;     
+  flex-direction: column;    
+    height: auto;  
+    flex-wrap: wrap;   
+    background-color: white;
+    max-width: 100%;
+
+}
+.flex-column-wrap ::slotted(div){
+  width: 250px;
+  height: 250px;
+  background-color: blueviolet;
+  margin: 10px;
+  border: solid 2px black;
 }

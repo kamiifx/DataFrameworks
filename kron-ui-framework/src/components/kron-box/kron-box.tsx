@@ -1,4 +1,4 @@
-import { Component, Host, h } from '@stencil/core';
+import { Component, h, Prop } from '@stencil/core';
 
 @Component({
   tag: 'kron-box',
@@ -7,11 +7,17 @@ import { Component, Host, h } from '@stencil/core';
 })
 export class KronBox {
 
+@Prop() displaymode: string;
+
   render() {
     return (
-      <Host>
-        <slot></slot>
-      </Host>
+          
+  <div class={this.displaymode}>
+<slot>
+   
+</slot>
+  </div>
+
     );
   }
 
