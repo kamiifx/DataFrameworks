@@ -1,8 +1,12 @@
 import { Config } from '@stencil/core';
+//import {sass} from 'stencil/sass';
 
 export const config: Config = {
   namespace: 'kron-ui-framework',
   globalStyle: 'src/global/global.css',
+    plugins: [
+      //sass()
+    ],
   outputTargets: [
     {
       type: 'dist',

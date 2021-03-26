@@ -1,4 +1,6 @@
 :root {
+
+    --color-color:null;
     /*Red*/
     --r-1:#FFCCBC;
     --r-2:#FFAC9C;
@@ -70,4 +72,58 @@
     --g-8:#009c41;
     --g-9:#008c31;
     --g-10:#007c21;
+<<<<<<< Updated upstream
 }
+=======
+
+    /*font size px*/
+    --size-zero: 0px;
+    --size-One: 1px;
+    --size-two: 2px;
+    --size-three: 3px;
+    --size-four: 4px;
+    --size-five: 5px;
+    --size-six: 6px;
+    --size-seven: 7px;
+    --size-eight: 8px;
+    --size-nine: 9px;
+    --size-ten: 10px;
+    --size-eleven: 11px;
+    --size-twelve: 12px;
+    --size-thirteen: 13px;
+    --size-fourten: 14px;
+    --size-fiften: 15px;
+    --size-sixsten: 16px;
+    --size-seventen: 17px;
+    --size-eighten: 18px;
+    --size-nineten: 19px;
+    --size-twenty: 20px;
+
+    /*size percent*/
+    
+    --size-percent-one: 1%;
+    --size-percent-two: 2%;
+    --size-percent-three: 3%;
+    --size-percent-four: 4%;
+    --size-percent-five: 5%;
+    --size-percent-six: 6%;
+    --size-percent-seven: 7%;
+    --size-percent-eight: 8%;
+    --size-percent-one: 9%;
+    --size-percent-one: 10%;
+    --size-percent-one: 11%;
+}
+
+body {
+    margin: var(--size-zero);
+    font-size: var(--size-percent-four);
+    color: var(--gr-9);
+    background-color: var(--gr-1);
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+
+}
+
+
+>>>>>>> Stashed changes

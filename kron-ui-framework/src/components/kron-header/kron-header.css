@@ -1,0 +1,14 @@
+:host {
+  display: block;
+}
+
+kron-header{
+  color: var(--gr-6);
+  font-size: var(--size-ten);
+  
+}
+
+
+
+
+
