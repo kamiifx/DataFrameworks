@@ -6,8 +6,17 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
+<<<<<<< Updated upstream
     interface KronBox {
         "displaymode": string;
+=======
+    interface KronHeader {
+        "content": string;
+        "opent": () => Promise<void>;
+        "titles": string;
+    }
+    interface KronNav {
+>>>>>>> Stashed changes
     }
     interface MyComponent {
         /**
@@ -25,11 +34,25 @@ export namespace Components {
     }
 }
 declare global {
+<<<<<<< Updated upstream
     interface HTMLKronBoxElement extends Components.KronBox, HTMLStencilElement {
     }
     var HTMLKronBoxElement: {
         prototype: HTMLKronBoxElement;
         new (): HTMLKronBoxElement;
+=======
+    interface HTMLKronHeaderElement extends Components.KronHeader, HTMLStencilElement {
+    }
+    var HTMLKronHeaderElement: {
+        prototype: HTMLKronHeaderElement;
+        new (): HTMLKronHeaderElement;
+    };
+    interface HTMLKronNavElement extends Components.KronNav, HTMLStencilElement {
+    }
+    var HTMLKronNavElement: {
+        prototype: HTMLKronNavElement;
+        new (): HTMLKronNavElement;
+>>>>>>> Stashed changes
     };
     interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {
     }
@@ -38,13 +61,26 @@ declare global {
         new (): HTMLMyComponentElement;
     };
     interface HTMLElementTagNameMap {
+<<<<<<< Updated upstream
         "kron-box": HTMLKronBoxElement;
+=======
+        "kron-header": HTMLKronHeaderElement;
+        "kron-nav": HTMLKronNavElement;
+>>>>>>> Stashed changes
         "my-component": HTMLMyComponentElement;
     }
 }
 declare namespace LocalJSX {
+<<<<<<< Updated upstream
     interface KronBox {
         "displaymode"?: string;
+=======
+    interface KronHeader {
+        "content"?: string;
+        "titles"?: string;
+    }
+    interface KronNav {
+>>>>>>> Stashed changes
     }
     interface MyComponent {
         /**
@@ -61,7 +97,12 @@ declare namespace LocalJSX {
         "middle"?: string;
     }
     interface IntrinsicElements {
+<<<<<<< Updated upstream
         "kron-box": KronBox;
+=======
+        "kron-header": KronHeader;
+        "kron-nav": KronNav;
+>>>>>>> Stashed changes
         "my-component": MyComponent;
     }
 }
@@ -69,7 +110,12 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+<<<<<<< Updated upstream
             "kron-box": LocalJSX.KronBox & JSXBase.HTMLAttributes<HTMLKronBoxElement>;
+=======
+            "kron-header": LocalJSX.KronHeader & JSXBase.HTMLAttributes<HTMLKronHeaderElement>;
+            "kron-nav": LocalJSX.KronNav & JSXBase.HTMLAttributes<HTMLKronNavElement>;
+>>>>>>> Stashed changes
             "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
         }
     }
