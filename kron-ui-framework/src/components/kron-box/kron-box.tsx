@@ -9,16 +9,19 @@ export class KronBox {
 
 @Prop() displaymode: string;
 
+
   render() {
     return (
           
   <div class={this.displaymode}>
 <slot>
+  <slot>
+    
+  </slot>
    
 </slot>
   </div>
 
     );
   }
-
 }

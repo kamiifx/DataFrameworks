@@ -11,7 +11,7 @@
 .flex-row-wrap ::slotted(div){
   width: 250px;
   height: 250px;
-  background-color: blueviolet;
+  background-color: lightgray;
   margin: 10px;
   border: solid 2px black;
 
@@ -29,7 +29,15 @@
 .flex-column-wrap ::slotted(div){
   width: 250px;
   height: 250px;
-  background-color: blueviolet;
+
   margin: 10px;
   border: solid 2px black;
 }
+
+.r1 ::slotted(div){
+  background-color: violet;
+}
+.r1 ::slotted(div p){
+  color: aqua;
+}
+
