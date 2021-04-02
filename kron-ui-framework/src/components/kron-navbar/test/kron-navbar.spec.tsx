@@ -1,18 +1,18 @@
 import { newSpecPage } from '@stencil/core/testing';
-import { KronTestOnclick } from '../kron-test-onclick';
+import { KronNavbar } from '../kron-navbar';
 
-describe('kron-test-onclick', () => {
+describe('kron-navbar', () => {
   it('renders', async () => {
     const page = await newSpecPage({
-      components: [KronTestOnclick],
-      html: `<kron-test-onclick></kron-test-onclick>`,
+      components: [KronNavbar],
+      html: `<kron-navbar></kron-navbar>`,
     });
     expect(page.root).toEqualHtml(`
-      <kron-test-onclick>
+      <kron-navbar>
         <mock:shadow-root>
           <slot></slot>
         </mock:shadow-root>
-      </kron-test-onclick>
+      </kron-navbar>
     `);
   });
 });

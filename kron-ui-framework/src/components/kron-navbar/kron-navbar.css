@@ -1,0 +1,42 @@
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top:0px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+  width: 100%;
+  justify-content: space-around;
+  text-decoration: none;
+  background-color:rgb(214, 197, 197);
+  
+}
+.navbar ::slotted(a){
+  margin-top: 5px;
+  text-decoration: none;
+}
+.navbar ::slotted(a:hover){
+  color: antiquewhite;
+  cursor: pointer;
+  
+}
+.navbar ::slotted(a:visited){
+  color: inherit;
+
+  
+}
+
+.vertical{
+  background-color: lightgreen;
+  flex-direction: column;
+  left:90%;
+  height: auto;
+  align-content: center;  
+  justify-content: baseline;
+
+}
