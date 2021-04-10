@@ -1,0 +1,61 @@
+:host {
+  display: block;
+}
+
+form{
+  display: block;
+  align-self: center;
+  font-size: large;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+form:hover{
+  display: block;
+  align-self: center;
+  font-size: large;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+  border: 2px solid var(--ge-10);
+}
+
+
+p {
+  font-size: large;
+  margin: 0
+  ;
+}
+
+fieldset{
+  margin: 2em 1em;
+  border: 2px solid black;
+  border-radius: 6%;
+  padding: 1em 2em;
+}
+
+::slotted(.legends){
+  font-size: medium;
+  color:rgb(191, 191, 197);
+
+
+}
+::slotted(.input){
+  display: block;
+}
+
+::slotted(.submit){
+  background-color: rgb(150, 147, 147);
+  border-radius: 35%;
+  margin-top: 2%;
+  border: 2px solid black;
+  padding: 2%;
+}
+::slotted(.label){
+  display: block;
+  margin-top: 1em;
+
+}
+
