@@ -23,6 +23,10 @@ export namespace Components {
     interface KronForm {
         "information": string;
     }
+    interface KronMenu {
+        "appreance": string;
+        "menu": string;
+    }
     interface KronNavbar {
         "kronlayout": string;
         "ultag": string;
@@ -71,6 +75,12 @@ declare global {
         prototype: HTMLKronFormElement;
         new (): HTMLKronFormElement;
     };
+    interface HTMLKronMenuElement extends Components.KronMenu, HTMLStencilElement {
+    }
+    var HTMLKronMenuElement: {
+        prototype: HTMLKronMenuElement;
+        new (): HTMLKronMenuElement;
+    };
     interface HTMLKronNavbarElement extends Components.KronNavbar, HTMLStencilElement {
     }
     var HTMLKronNavbarElement: {
@@ -94,6 +104,7 @@ declare global {
         "kron-box": HTMLKronBoxElement;
         "kron-figure": HTMLKronFigureElement;
         "kron-form": HTMLKronFormElement;
+        "kron-menu": HTMLKronMenuElement;
         "kron-navbar": HTMLKronNavbarElement;
         "kron-section": HTMLKronSectionElement;
         "my-component": HTMLMyComponentElement;
@@ -116,6 +127,10 @@ declare namespace LocalJSX {
     }
     interface KronForm {
         "information"?: string;
+    }
+    interface KronMenu {
+        "appreance"?: string;
+        "menu"?: string;
     }
     interface KronNavbar {
         "kronlayout"?: string;
@@ -144,6 +159,7 @@ declare namespace LocalJSX {
         "kron-box": KronBox;
         "kron-figure": KronFigure;
         "kron-form": KronForm;
+        "kron-menu": KronMenu;
         "kron-navbar": KronNavbar;
         "kron-section": KronSection;
         "my-component": MyComponent;
@@ -157,6 +173,7 @@ declare module "@stencil/core" {
             "kron-box": LocalJSX.KronBox & JSXBase.HTMLAttributes<HTMLKronBoxElement>;
             "kron-figure": LocalJSX.KronFigure & JSXBase.HTMLAttributes<HTMLKronFigureElement>;
             "kron-form": LocalJSX.KronForm & JSXBase.HTMLAttributes<HTMLKronFormElement>;
+            "kron-menu": LocalJSX.KronMenu & JSXBase.HTMLAttributes<HTMLKronMenuElement>;
             "kron-navbar": LocalJSX.KronNavbar & JSXBase.HTMLAttributes<HTMLKronNavbarElement>;
             "kron-section": LocalJSX.KronSection & JSXBase.HTMLAttributes<HTMLKronSectionElement>;
             "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
