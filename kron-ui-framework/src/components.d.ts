@@ -9,6 +9,10 @@ export namespace Components {
     interface KronBox {
         "displaymode": string;
     }
+    interface KronNavbar {
+        "kronlayout": string;
+        "ultag": string;
+    }
     interface MyComponent {
         /**
           * The first name
@@ -31,6 +35,12 @@ declare global {
         prototype: HTMLKronBoxElement;
         new (): HTMLKronBoxElement;
     };
+    interface HTMLKronNavbarElement extends Components.KronNavbar, HTMLStencilElement {
+    }
+    var HTMLKronNavbarElement: {
+        prototype: HTMLKronNavbarElement;
+        new (): HTMLKronNavbarElement;
+    };
     interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {
     }
     var HTMLMyComponentElement: {
@@ -39,12 +49,17 @@ declare global {
     };
     interface HTMLElementTagNameMap {
         "kron-box": HTMLKronBoxElement;
+        "kron-navbar": HTMLKronNavbarElement;
         "my-component": HTMLMyComponentElement;
     }
 }
 declare namespace LocalJSX {
     interface KronBox {
         "displaymode"?: string;
+    }
+    interface KronNavbar {
+        "kronlayout"?: string;
+        "ultag"?: string;
     }
     interface MyComponent {
         /**
@@ -62,6 +77,7 @@ declare namespace LocalJSX {
     }
     interface IntrinsicElements {
         "kron-box": KronBox;
+        "kron-navbar": KronNavbar;
         "my-component": MyComponent;
     }
 }
@@ -70,6 +86,7 @@ declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
             "kron-box": LocalJSX.KronBox & JSXBase.HTMLAttributes<HTMLKronBoxElement>;
+            "kron-navbar": LocalJSX.KronNavbar & JSXBase.HTMLAttributes<HTMLKronNavbarElement>;
             "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
         }
     }
