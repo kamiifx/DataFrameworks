@@ -11,7 +11,6 @@ export class KronForm {
 
 render() {
     return (
-
       <form>
         <fieldset>
           <p>{this.information}</p>

@@ -2,25 +2,67 @@
   display: block;
 }
 
-article {
+.article {
   margin: 0;
   margin-top: 5px;
-  border: 2px solid var(--gr-10);
+  text-align: center;
+  background-color: var(--gr-1);
 }
-article:hover {
+.article ::slotted(p){
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  color: var(--gr-1);
+}
+.article ::slotted(p:hover){
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  color: var(--gr-10);
+}
+.article:hover {
   margin: 0;
   margin-top: 5px;
-  border:4px solid var(--gr-10);
+  text-align: center;
+  text-decoration: underline;
+  background-color: var(--gr-10);
+
 }
 
+.fontLarge{
+  font-size: medium;
+  text-align: center;
+  text-decoration: underline;
+}
 
-h3, h2 {
+.fontMedium{
+  font-size: medium;
+  text-align: center;
+  text-decoration: underline;
+
+}
+.fontSmall{
+  font-size: medium;
+  text-align: center;
+  text-decoration: underline;
+
+}
+.h3 {
   margin: 0;
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
 }
 
-p{
-  color: rgb(39, 39, 39);
-  text-align: center;
+.h2 {
+
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
 }
+
+.p{
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+}
+

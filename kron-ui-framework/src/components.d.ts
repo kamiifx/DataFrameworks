@@ -7,10 +7,7 @@
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
     interface KronArticle {
-        "content": string;
-        "isValidContentLogo": boolean;
-        "mainSectionWrite": string;
-        "titles": string;
+        "appearance": string;
     }
     interface KronBox {
         "displaymode": string;
@@ -101,10 +98,7 @@ declare global {
 }
 declare namespace LocalJSX {
     interface KronArticle {
-        "content"?: string;
-        "isValidContentLogo"?: boolean;
-        "mainSectionWrite"?: string;
-        "titles"?: string;
+        "appearance"?: string;
     }
     interface KronBox {
         "displaymode"?: string;
