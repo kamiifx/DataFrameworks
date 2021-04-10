@@ -7,9 +7,10 @@
 
 ## Properties
 
-| Property | Attribute | Description | Type     | Default     |
-| -------- | --------- | ----------- | -------- | ----------- |
-| `ultag`  | `ultag`   |             | `string` | `undefined` |
+| Property     | Attribute    | Description | Type     | Default     |
+| ------------ | ------------ | ----------- | -------- | ----------- |
+| `kronlayout` | `kronlayout` |             | `string` | `undefined` |
+| `ultag`      | `ultag`      |             | `string` | `undefined` |
 
 
 ----------------------------------------------

@@ -1,0 +1,39 @@
+:host {
+  display: block;
+}
+
+section {
+  font-family:'Times New Roman', Times, serif;
+  color: var(--gr-10);
+  justify-content: center;
+  float: center;
+  border: 1px solid var(--gr-10);
+
+}
+section:hover {
+  font-family:'Times New Roman', Times, serif;
+  color: var(--gr-10);
+  justify-content: center;
+  float: center;
+  border: 3px solid var(--gr-10);
+
+}
+h1, h2, p{
+  font-size: medium;
+  text-align: center;
+  color: var(--gr-10);
+
+}
+
+
+::slotted(kron-article){
+  text-align: center;
+  align-content: center;
+  margin: 20px;
+}
+
+h1, h2:hover{
+  text-decoration: underline;
+  font-weight: bold;
+
+}

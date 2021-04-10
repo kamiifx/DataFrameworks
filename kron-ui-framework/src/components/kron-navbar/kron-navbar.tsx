@@ -12,10 +12,11 @@ export class KronNavbar {
   render() {
     return (
      <ul class={`${this.ultag} " "${this.kronlayout}`}> 
-
+    
       <slot>
       
         </slot>
+     
         </ul>
      
     );
