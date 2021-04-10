@@ -14,7 +14,7 @@
   
 }
 .navbar ::slotted(a){
-  margin-top: 5px;
+  margin-top: 0px;
   text-decoration: none;
 }
 .navbar ::slotted(a:hover){

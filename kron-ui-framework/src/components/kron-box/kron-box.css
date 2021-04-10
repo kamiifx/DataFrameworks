@@ -34,10 +34,535 @@
   border: solid 2px black;
 }
 
-.r1 ::slotted(div){
-  background-color: violet;
+/*Colors*/
+/* 
+Red
+*/
+.red1{
+  background-color: var(--r-1);
 }
-.r1 ::slotted(div p){
-  color: aqua;
+.red2{
+  background-color: var(--r-2);
+}
+.red3{
+  background-color: var(--r-3);
+}
+.red4{
+  background-color: var(--r-4);
+}
+.red5{
+  background-color: var(--r-5);
+}
+.red1{
+  background-color: var(--r-1);
+}
+.red6{
+  background-color: var(--r-2);
+}
+.red7{
+  background-color: var(--r-3);
+}
+.red8{
+  background-color: var(--r-4);
+}
+.red9{
+  background-color: var(--r-5);
+}
+.red10{
+  background-color: var(--r-5);
+}
+/* 
+Blue
+*/
+.blue1{
+  background-color: var(--b-1);
+}
+.blue2{
+  background-color: var(--b-2);
+}
+.blue3{
+  background-color: var(--b-3);
+}
+.blue4{
+  background-color: var(--b-4);
+}
+.blue5{
+  background-color: var(--b-5);
+}
+.blue6{
+  background-color: var(--b-6);
+}
+.blue7{
+  background-color: var(--b-7);
+}
+.blue8{
+  background-color: var(--b-8);
+}
+.blue9{
+  background-color: var(--b-9);
+}
+.blue10{
+  background-color: var(--b-10);
+}
+/*
+Grey
+*/
+.grey1{
+  background-color: var(--gr-1);
+}
+.grey2{
+  background-color: var(--gr-2);
+}
+.grey3{
+  background-color: var(--gr-3);
+}
+.grey4{
+  background-color: var(--gr-4);
+}
+.grey5{
+  background-color: var(--gr-5);
+}
+.grey6{
+  background-color: var(--gr-6);
+}
+.grey7{
+  background-color: var(--gr-7);
+}
+.grey8{
+  background-color: var(--gr-8);
+}
+.grey9{
+  background-color: var(--gr-9);
+}
+.grey10{
+  background-color: var(--gr-10);
+}
+/*
+gray
+*/
+.gray1{
+  background-color: var(--ge-1);
+}
+.gray2{
+  background-color: var(--ge-2);
+}
+.gray3{
+  background-color: var(--ge-3);
+}
+.gray4{
+  background-color: var(--ge-4);
+}
+.gray5{
+  background-color: var(--ge-5);
+}
+.gray6{
+  background-color: var(--ge-6);
+}
+.gray7{
+  background-color: var(--ge-7);
+}
+.gray8{
+  background-color: var(--ge-8);
+}
+.gray9{
+  background-color: var(--ge-9);
+}
+.gray10{
+  background-color: var(--ge-10);
+}
+/*
+ Yellow 
+*/
+.yellow1{
+  background-color: var(--y-1);
+}
+.yellow2{
+  background-color: var(--y-2);
+}
+.yellow3{
+  background-color: var(--y-3);
+}
+.yellow4{
+  background-color: var(--y-4);
+}
+.yellow5{
+  background-color: var(--y-5);
+}
+.yellow6{
+  background-color: var(--y-6);
+}
+.yellow7{
+  background-color: var(--y-7);
+}
+.yellow8{
+  background-color: var(--y-8);
+}
+.yellow9{
+  background-color: var(--y-9);
+}
+.yellow10{
+  background-color: var(--y-10);
+}
+/*
+Green
+*/
+.green1{
+  background-color: var(--ge-1);
+}
+.green2{
+  background-color: var(--ge-2);
+}
+.green3{
+  background-color: var(--ge-3);
+}
+.green4{
+  background-color: var(--ge-4);
+}
+.green5{
+  background-color: var(--ge-5);
+}
+.green6{
+  background-color: var(--ge-6);
+}
+.green7{
+  background-color: var(--ge-7);
+}
+.green8{
+  background-color: var(--ge-8);
+}
+.green9{
+  background-color: var(--ge-9);
+}
+.green10{
+  background-color: var(--ge-10);
+}
+/*
+Pink
+*/
+.pink1{
+  background-color: var(--p-1);
+}
+.pink2{
+  background-color: var(--p-2);
 }
 
+.pink3{
+  background-color: var(--p-3);
+}
+
+.pink4{
+  background-color: var(--p-4);
+}
+
+.pink5{
+  background-color: var(--p-5);
+}
+
+.pink6{
+  background-color: var(--p-6);
+}
+
+.pink7{
+  background-color: var(--p-7);
+}
+
+.pink8{
+  background-color: var(--p-8);
+}
+
+.pink9{
+  background-color: var(--p-9);
+}
+.pink10{
+  background-color: var(--p-10);
+}
+/*
+Brown
+*/
+.brown1{
+  background-color: var(--br-1);
+}
+.brown2{
+  background-color: var(--br-2);
+}
+.brown3{
+  background-color: var(--br-3);
+}
+.brown4{
+  background-color: var(--br-4);
+}
+.brown5{
+  background-color: var(--br-5);
+}
+.brown6{
+  background-color: var(--br-6);
+}
+.brown7{
+  background-color: var(--br-7);
+}
+.brown8{
+  background-color: var(--br-8);
+}
+.brown9{
+  background-color: var(--br-9);
+}
+.brown10{
+  background-color: var(--br-10);
+}
+
+.backcolor-r1 ::slotted(div){
+  background-color: var(--r-1);
+}
+.backcolor-r2 ::slotted(div){
+  background-color: var(--r-2);
+}
+.backcolor-r3 ::slotted(div){
+  background-color: var(--r-3);
+}
+.backcolor-r4 ::slotted(div){
+  background-color: var(--r-4);
+}
+.backcolor-r5 ::slotted(div){
+  background-color: var(--r-5);
+}
+.backcolor-r6 ::slotted(div){
+  background-color: var(--r-6);
+}
+.backcolor-r7 ::slotted(div){
+  background-color: var(--r-7);
+}
+.backcolor-r8 ::slotted(div){
+  background-color: var(--r-8);
+}
+.backcolor-r9 ::slotted(div){
+  background-color: var(--r-9);
+}
+.backcolor-r10 ::slotted(div){
+  background-color: var(--r-10);
+}
+
+/*Blue backcoloring*/
+.backcolor-b1 ::slotted(div){
+  background-color: var(--b-1);
+}
+.backcolor-b2 ::slotted(div){
+  background-color: var(--b-2);
+}
+.backcolor-b3 ::slotted(div){
+  background-color: var(--b-3);
+}
+.backcolor-b4 ::slotted(div){
+  background-color: var(--b-4);
+}
+.backcolor-b5 ::slotted(div){
+  background-color: var(--b-5);
+}
+.backcolor-b6 ::slotted(div){
+  background-color: var(--b-6);
+}
+.backcolor-b7 ::slotted(div){
+  background-color: var(--b-7);
+}
+.backcolor-b8 ::slotted(div){
+  background-color: var(--b-8);
+}
+.backcolor-b9 ::slotted(div){
+  background-color: var(--b-9);
+}
+.backcolor-b10 ::slotted(div){
+  background-color: var(--b-10);
+}
+
+/*Grey backcoloring*/
+.backcolor-gr1 ::slotted(div){
+  background-color: var(--gr-1);
+}
+.backcolor-gr2 ::slotted(div){
+  background-color: var(--gr-2);
+}
+.backcolor-gr3 ::slotted(div){
+  background-color: var(--gr-3);
+}
+.backcolor-gr4 ::slotted(div){
+  background-color: var(--gr-4);
+}
+.backcolor-gr5 ::slotted(div){
+  background-color: var(--gr-5);
+}
+.backcolor-gr6 ::slotted(div){
+  background-color: var(--gr-6);
+}
+.backcolor-gr7 ::slotted(div){
+  background-color: var(--gr-7);
+}
+.backcolor-gr8 ::slotted(div){
+  background-color: var(--gr-8);
+}
+.backcolor-gr9 ::slotted(div){
+  background-color: var(--gr-9);
+}
+.backcolor-gr10 ::slotted(div){
+  background-color: var(--gr-10);
+}
+/*Gray backcoloring*/
+.backcolor-ge1 ::slotted(div){
+  background-color: var(--ge-1);
+}
+.backcolor-ge2 ::slotted(div){
+  background-color: var(--ge-2);
+}
+.backcolor-ge3 ::slotted(div){
+  background-color: var(--ge-3);
+}
+.backcolor-ge4 ::slotted(div){
+  background-color: var(--ge-4);
+}
+.backcolor-ge5 ::slotted(div){
+  background-color: var(--ge-5);
+}
+.backcolor-ge6 ::slotted(div){
+  background-color: var(--ge-6);
+}
+.backcolor-ge7 ::slotted(div){
+  background-color: var(--ge-7);
+}
+.backcolor-ge8 ::slotted(div){
+  background-color: var(--ge-8);
+}
+.backcolor-ge9 ::slotted(div){
+  background-color: var(--ge-9);
+}
+.backcolor-ge10 ::slotted(div){
+  background-color: var(--ge-10);
+}
+/*Yellow backcoloring*/
+.backcolor-y1 ::slotted(div){
+  background-color: var(--y-1);
+}
+.backcolor-y2 ::slotted(div){
+  background-color: var(--y-2);
+}
+.backcolor-y3 ::slotted(div){
+  background-color: var(--y-3);
+}
+.backcolor-y4 ::slotted(div){
+  background-color: var(--y-4);
+}
+.backcolor-y5 ::slotted(div){
+  background-color: var(--y-5);
+}
+.backcolor-y6 ::slotted(div){
+  background-color: var(--y-6);
+}
+.backcolor-y7 ::slotted(div){
+  background-color: var(--y-7);
+}
+.backcolor-y8 ::slotted(div){
+  background-color: var(--y-8);
+}
+.backcolor-y9 ::slotted(div){
+  background-color: var(--y-9);
+}
+.backcolor-y10 ::slotted(div){
+  background-color: var(--y-10);
+}
+
+
+
+
+
+/*Pink backcoloring*/
+.backcolor-p1 ::slotted(div){
+  background-color: var(--p-1);
+}
+.backcolor-p2 ::slotted(div){
+  background-color: var(--p-2);
+}
+.backcolor-p3 ::slotted(div){
+  background-color: var(--p-3);
+}
+.backcolor-p4 ::slotted(div){
+  background-color: var(--p-4);
+}
+.backcolor-p5 ::slotted(div){
+  background-color: var(--p-5);
+}
+.backcolor-p6 ::slotted(div){
+  background-color: var(--p-6);
+}
+.backcolor-p7 ::slotted(div){
+  background-color: var(--p-7);
+}
+.backcolor-p8 ::slotted(div){
+  background-color: var(--p-8);
+}
+.backcolor-p9 ::slotted(div){
+  background-color: var(--p-9);
+}
+.backcolor-p10 ::slotted(div){
+  background-color: var(--p-10);
+}
+
+/*Green backcoloring*/
+.backcolor-g1 ::slotted(div){
+  background-color: var(--g-1);
+}
+.backcolor-g2 ::slotted(div){
+  background-color: var(--g-2);
+}
+.backcolor-g3 ::slotted(div){
+  background-color: var(--g-3);
+}
+.backcolor-g4 ::slotted(div){
+  background-color: var(--g-4);
+}
+.backcolor-g5 ::slotted(div){
+  background-color: var(--g-5);
+}
+.backcolor-g6 ::slotted(div){
+  background-color: var(--g-6);
+}
+.backcolor-g7 ::slotted(div){
+  background-color: var(--g-7);
+}
+.backcolor-g8 ::slotted(div){
+  background-color: var(--g-8);
+}
+.backcolor-g9 ::slotted(div){
+  background-color: var(--g-9);
+}
+.backcolor-g10 ::slotted(div){
+  background-color: var(--g-10);
+}
+
+/*Bron backcoloring*/
+.backcolor-br1 ::slotted(div){
+  background-color: var(--br-1);
+}
+.backcolor-br2 ::slotted(div){
+  background-color: var(--br-2);
+}
+.backcolor-br3 ::slotted(div){
+  background-color: var(--br-3);
+}
+.backcolor-br4 ::slotted(div){
+  background-color: var(--br-4);
+}
+.backcolor-br5 ::slotted(div){
+  background-color: var(--br-5);
+}
+.backcolor-br6 ::slotted(div){
+  background-color: var(--br-6);
+}
+.backcolor-br7 ::slotted(div){
+  background-color: var(--br-7);
+}
+.backcolor-br8 ::slotted(div){
+  background-color: var(--br-8);
+}
+.backcolor-br9 ::slotted(div){
+  background-color: var(--br-9);
+}
+.backcolor-br10 ::slotted(div){
+  background-color: var(--br-10);
+}

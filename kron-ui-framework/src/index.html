@@ -21,7 +21,7 @@
             you want the color to be 1 being weakest 10 being strongest
            Example shown below
     -->
-   <kron-navbar ultag="navbar vertical red2 hover-r7"> 
+   <kron-navbar ultag="navbar horisontal blue1 hover-b8"> 
   <a href=""> Home </a> 
   <a href=""> Settings </a>  
   <a href=""> Pixels </a>  
@@ -39,10 +39,15 @@
        attributes:
         "flex-row-wrap"
         "flex-column-wrap"
+         To add a color write the name of the color and then add how strong 
+           you want the color to be 1 being weakest 10 being strongest
+
+           To target background color of your wanted component type backcolor-(b1-b10)
+           for blue strenght 1 to 10 
       
         Example shown below
       -->
- <kron-box displaymode="flex-row-wrap"> 
+ <kron-box displaymode="flex-row-wrap backcolor-b7"> 
 
   <div> This</div>
   <div> is </div>
@@ -51,7 +56,7 @@
 </kron-box> 
 
 
-<kron-box displaymode="flex-column-wrap r1"> 
+<kron-box displaymode="flex-column-wrap backcolor-r2"> 
 
   <div> as  </div>
   <div>this one </div>
