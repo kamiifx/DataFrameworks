@@ -10,33 +10,17 @@
 
   </head>
   <body>
-    
-   <h1> Nyhets artikkel nettside </h1>
-     <!--  Properties for kron-box
-      property: "displaymode"
 
-       attributes:
-        "flex-row-wrap"
-        "flex-column-wrap"-->
-    
- <kron-box displaymode="flex-row-wrap"> 
+    <!-- Properties for kron-navbar:
+          property: ultag="classname" 
 
-  <div> artikkel 1</div>
-  <div> artikkel 1</div>
-  <div> artikkel 1</div>
-  <div> artikkel 1</div>
-</kron-box>
-<kron-box displaymode="flex-column-wrap r1"> 
+           attributes/classes: 
+           "navbar vertical"
+           "navbar horisontal"
 
-  <div> 
-    
-    <p> adfasdfads</p>artikkel 1</div><div> artikkel 1</div>
-  <div> artikkel 1</div>
-  <div> artikkel 1</div>
-</kron-box>
-
- 
-<kron-navbar ultag="navbar"> 
+           Example shown below
+    -->
+   <kron-navbar ultag="navbar vertical"> 
   <a href=""> Home </a> 
   <a href=""> Settings </a>  
   <a href=""> Pixels </a>  
@@ -45,6 +29,35 @@
   <a href=""> test</a>
 </kron-navbar>
 
+
+
+   <h1> Nyhets artikkel nettside </h1>
+      <!-- Properties for kron-box
+      property: "displaymode"
+
+       attributes:
+        "flex-row-wrap"
+        "flex-column-wrap"
+      
+        Example shown below
+      -->
+ <kron-box displaymode="flex-row-wrap"> 
+
+  <div> This</div>
+  <div> is </div>
+  <div> the same </div>
+  <div> Component</div>
+</kron-box> 
+
+
+<kron-box displaymode="flex-column-wrap r1"> 
+
+  <div> as  </div>
+  <div>this one </div>
+
+</kron-box>
+
+ 
 
 
   </body>
