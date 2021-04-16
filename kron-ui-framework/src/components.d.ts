@@ -7,21 +7,17 @@
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
     interface KronArticle {
-        "content": string;
-        "isValidContentLogo": boolean;
-        "mainSectionWrite": string;
-        "titles": string;
+        "appearance": string;
     }
     interface KronBox {
         "displaymode": string;
     }
     interface KronFigure {
-        "figcaption": string;
-        "image": any;
-        "isValid": boolean;
+        "appearance": string;
     }
     interface KronForm {
-        "information": string;
+        "appearance": string;
+        "image": boolean;
     }
     interface KronHeadline {
         "appereance": string;
@@ -34,7 +30,7 @@ export namespace Components {
         "navlogo": string;
     }
     interface KronSection {
-        "header": string;
+        "appearance": string;
         "text": string;
     }
     interface MyComponent {
@@ -114,21 +110,17 @@ declare global {
 }
 declare namespace LocalJSX {
     interface KronArticle {
-        "content"?: string;
-        "isValidContentLogo"?: boolean;
-        "mainSectionWrite"?: string;
-        "titles"?: string;
+        "appearance"?: string;
     }
     interface KronBox {
         "displaymode"?: string;
     }
     interface KronFigure {
-        "figcaption"?: string;
-        "image"?: any;
-        "isValid"?: boolean;
+        "appearance"?: string;
     }
     interface KronForm {
-        "information"?: string;
+        "appearance"?: string;
+        "image"?: boolean;
     }
     interface KronHeadline {
         "appereance"?: string;
@@ -141,7 +133,7 @@ declare namespace LocalJSX {
         "navlogo"?: string;
     }
     interface KronSection {
-        "header"?: string;
+        "appearance"?: string;
         "text"?: string;
     }
     interface MyComponent {

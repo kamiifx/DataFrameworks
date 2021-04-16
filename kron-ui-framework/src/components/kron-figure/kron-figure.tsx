@@ -1,4 +1,4 @@
-import { Component, getAssetPath, h, Prop } from '@stencil/core';
+import { Component, h, Prop } from '@stencil/core';
 
 @Component({
   tag: 'kron-figure',
@@ -7,24 +7,14 @@ import { Component, getAssetPath, h, Prop } from '@stencil/core';
 })
 export class KronFigure {
   
-  @Prop() image;
-  @Prop({attribute: "isValid" }) isValid: boolean = true;
-  @Prop() figcaption: string;
-
+  @Prop() appearance: string;
+ 
   render() {
 
-    if(this.isValid){
-      return (
-        <figure>
-        <img src={getAssetPath(`./assets/${this.image}`)} />
-        <figcaption>{this.figcaption}</figcaption>
-        </figure>
-      )        
-    }
-
-    else{
-      return <p>you dont whant anny picture</p>;
-    }
-    
+    return (
+      <figure class={`${this.appearance}`}>
+        <slot/>
+    </figure>
+    );
   }
 }
