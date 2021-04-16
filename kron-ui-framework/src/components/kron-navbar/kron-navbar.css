@@ -1,86 +1,94 @@
 
-.navbar {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  position: fixed;
-  top:0px;
-  height: auto;
-  width: 100%;
+.nav{
+display: flex;
+width: 100%;
+height: 100px;
+background-color: blanchedalmond;
+align-items: center;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+position: relative;
+
+}
+
+
+.items{
+ display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  text-align: center;
   align-items: center;
-  justify-content: space-around;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+}
+.items ::slotted(a){
+
+  color: black;
   text-decoration: none;
-  background-color:#f1f1f1;
+  margin-left: 35px;
+  height: 40px;
+
   
 }
-.navbar ::slotted(a){
-  margin-top: 0px;
-  text-decoration: none;
+
+.items ::slotted(a:hover){
+transition: 0.25s ease-in-out;
+font-size: 20px;
+border-radius: 2px;
+border-bottom: 4px solid var(--g-4);
+
+
 }
-.navbar ::slotted(a:hover){
-  color: antiquewhite;
-  cursor: pointer;
+
+.contact{
+  height: auto;
+  align-items: center;
+  margin-right: 30px;
   
 }
-.navbar ::slotted(a:visited){
-  color: inherit;
+
+.logotitle{
+  margin-left: 55px;
+  font-weight: 600;
+
 }
+
+/* VERTICAL *//*
 .vertical{
   flex-direction: column;
   left:90%;
   height: auto;
-  position: fixed;
-  align-content: center;  
-  justify-content: baseline;
-  list-style-type: none;
+  position: relative;
   background-color: #f1f1f1;
 
 }
+.vertical ::slotted(h2){
+  display: block;
+  color: #000;
+  align-items: left;
+}
+
 .vertical ::slotted(a){
   display: block;
   color: #000;
   padding: 8px 16px;
-  text-decoration: none;
+  align-items: center;
 }
+
+
+.vertical ::slotted(a:hover){
+color: white;
+opacity: 0.9;
+}
+
 .vertical ::slotted(a:hover){
 color: white;
 opacity: 0.9;
 
 }
+*/
 
-.vertical ::slotted(a:hover){
-color: white;
-opacity: 0.9;
-
-}
-
-.horisontal{
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  position: fixed;
-  top:0px;
-  height: 35px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap:nowrap;
-  width: 100%;
-  justify-content: space-around;
-  text-decoration: none;
-  
-}
-
-.horisontal ::slotted(a){
-  display: block;
-  color: #000;
-  padding: 8px 16px;
-  text-decoration: none;
-}
-.horisontal ::slotted(a:hover){
-color: white;
-opacity: 0.95;
-
-}
 /*Colors*/
 /* 
 Red
@@ -360,161 +368,130 @@ Brown
 Hovor colors
 */
 /*Red hovering*/
-.hover-r1 ::slotted(a:hover){
-  background-color: var(--r-1);
-}
-.hover-r2 ::slotted(a:hover){
-  background-color: var(--r-2);
-}
-.hover-r3 ::slotted(a:hover){
-  background-color: var(--r-3);
-}
-.hover-r4 ::slotted(a:hover){
-  background-color: var(--r-4);
-}
-.hover-r5 ::slotted(a:hover){
-  background-color: var(--r-5);
-}
-.hover-r6 ::slotted(a:hover){
-  background-color: var(--r-6);
-}
-.hover-r7 ::slotted(a:hover){
-  background-color: var(--r-7);
-}
-.hover-r8 ::slotted(a:hover){
-  background-color: var(--r-8);
-}
-.hover-r9 ::slotted(a:hover){
-  background-color: var(--r-9);
-}
-.hover-r10 ::slotted(a:hover){
-  background-color: var(--r-10);
-}
-
 /*Blue Hovering*/
 .hover-b1 ::slotted(a:hover){
-  background-color: var(--b-1);
+  border-bottom: 4px solid var(--b-1);
 }
 .hover-b2 ::slotted(a:hover){
-  background-color: var(--b-2);
+  border-bottom: 4px solid var(--b-2);
 }
 .hover-b3 ::slotted(a:hover){
-  background-color: var(--b-3);
+  border-bottom: 4px solid var(--b-3);
 }
 .hover-b4 ::slotted(a:hover){
-  background-color: var(--b-4);
+  border-bottom: 4px solid var(--b-4);
 }
 .hover-b5 ::slotted(a:hover){
-  background-color: var(--b-5);
+  border-bottom: 4px solid var(--b-5);
 }
 .hover-b6 ::slotted(a:hover){
-  background-color: var(--b-6);
+  border-bottom: 4px solid var(--b-6);
 }
 .hover-b7 ::slotted(a:hover){
-  background-color: var(--b-7);
+  border-bottom: 4px solid var(--b-7);
 }
 .hover-b8 ::slotted(a:hover){
-  background-color: var(--b-8);
+  border-bottom: 4px solid var(--b-8);
 }
 .hover-b9 ::slotted(a:hover){
-  background-color: var(--b-9);
+  border-bottom: 4px solid var(--b-9);
 }
 .hover-b10 ::slotted(a:hover){
-  background-color: var(--b-10);
+  border-bottom: 4px solid var(--b-10);
 }
 
 /*Grey Hovering*/
 .hover-gr1 ::slotted(a:hover){
-  background-color: var(--gr-1);
+  border-bottom: 4px solid var(--gr-1);
 }
 .hover-gr2 ::slotted(a:hover){
-  background-color: var(--gr-2);
+  border-bottom: 4px solid var(--gr-2);
 }
 .hover-gr3 ::slotted(a:hover){
-  background-color: var(--gr-3);
+  border-bottom: 4px solid var(--gr-3);
 }
 .hover-gr4 ::slotted(a:hover){
-  background-color: var(--gr-4);
+  border-bottom: 4px solid var(--gr-4);
 }
 .hover-gr5 ::slotted(a:hover){
-  background-color: var(--gr-5);
+  border-bottom: 4px solid var(--gr-5);
 }
 .hover-gr6 ::slotted(a:hover){
-  background-color: var(--gr-6);
+  border-bottom: 4px solid var(--gr-6);
 }
 .hover-gr7 ::slotted(a:hover){
-  background-color: var(--gr-7);
+  border-bottom: 4px solid var(--gr-7);
 }
 .hover-gr8 ::slotted(a:hover){
-  background-color: var(--gr-8);
+  border-bottom: 4px solid var(--gr-8);
 }
 .hover-gr9 ::slotted(a:hover){
-  background-color: var(--gr-9);
+  border-bottom: 4px solid var(--gr-9);
 }
 .hover-gr10 ::slotted(a:hover){
-  background-color: var(--gr-10);
+  border-bottom: 4px solid var(--gr-10);
 }
 /*Gray hovering*/
 .hover-ge1 ::slotted(a:hover){
-  background-color: var(--ge-1);
+  border-bottom: 4px solid var(--ge-1);
 }
 .hover-ge2 ::slotted(a:hover){
-  background-color: var(--ge-2);
+  border-bottom: 4px solid var(--ge-2);
 }
 .hover-ge3 ::slotted(a:hover){
-  background-color: var(--ge-3);
+  border-bottom: 4px solid var(--ge-3);
 }
 .hover-ge4 ::slotted(a:hover){
-  background-color: var(--ge-4);
+  border-bottom: 4px solid var(--ge-4);
 }
 .hover-ge5 ::slotted(a:hover){
-  background-color: var(--ge-5);
+  border-bottom: 4px solid var(--ge-5);
 }
 .hover-ge6 ::slotted(a:hover){
-  background-color: var(--ge-6);
+  border-bottom: 4px solid var(--ge-6);
 }
 .hover-ge7 ::slotted(a:hover){
-  background-color: var(--ge-7);
+  border-bottom: 4px solid var(--ge-7);
 }
 .hover-ge8 ::slotted(a:hover){
-  background-color: var(--ge-8);
+  border-bottom: 4px solid var(--ge-8);
 }
 .hover-ge9 ::slotted(a:hover){
-  background-color: var(--ge-9);
+  border-bottom: 4px solid var(--ge-9);
 }
 .hover-ge10 ::slotted(a:hover){
-  background-color: var(--ge-10);
+  border-bottom: 4px solid var(--ge-10);
 }
 /*Yellow hovering*/
 .hover-y1 ::slotted(a:hover){
-  background-color: var(--y-1);
+  border-bottom: 4px solid var(--y-1);
 }
 .hover-y2 ::slotted(a:hover){
-  background-color: var(--y-2);
+  border-bottom: 4px solid var(--y-2);
 }
 .hover-y3 ::slotted(a:hover){
-  background-color: var(--y-3);
+  border-bottom: 4px solid var(--y-3);
 }
 .hover-y4 ::slotted(a:hover){
-  background-color: var(--y-4);
+  border-bottom: 4px solid var(--y-4);
 }
 .hover-y5 ::slotted(a:hover){
-  background-color: var(--y-5);
+  border-bottom: 4px solid var(--y-5);
 }
 .hover-y6 ::slotted(a:hover){
-  background-color: var(--y-6);
+  border-bottom: 4px solid var(--y-6);
 }
 .hover-y7 ::slotted(a:hover){
-  background-color: var(--y-7);
+  border-bottom: 4px solid var(--y-7);
 }
 .hover-y8 ::slotted(a:hover){
-  background-color: var(--y-8);
+  border-bottom: 4px solid var(--y-8);
 }
 .hover-y9 ::slotted(a:hover){
-  background-color: var(--y-9);
+  border-bottom: 4px solid var(--y-9);
 }
 .hover-y10 ::slotted(a:hover){
-  background-color: var(--y-10);
+  border-bottom: 4px solid var(--y-10);
 }
 
 
@@ -523,99 +500,97 @@ Hovor colors
 
 /*Pink Hovering*/
 .hover-p1 ::slotted(a:hover){
-  background-color: var(--p-1);
+  border-bottom: 4px solid var(--p-1);
 }
 .hover-p2 ::slotted(a:hover){
-  background-color: var(--p-2);
+  border-bottom: 4px solid var(--p-2);
 }
 .hover-p3 ::slotted(a:hover){
-  background-color: var(--p-3);
+  border-bottom: 4px solid var(--p-3);
 }
 .hover-p4 ::slotted(a:hover){
-  background-color: var(--p-4);
+  border-bottom: 4px solid var(--p-4);
 }
 .hover-p5 ::slotted(a:hover){
-  background-color: var(--p-5);
+  border-bottom: 4px solid var(--p-5);
 }
 .hover-p6 ::slotted(a:hover){
-  background-color: var(--p-6);
+  border-bottom: 4px solid var(--p-6);
 }
 .hover-p7 ::slotted(a:hover){
-  background-color: var(--p-7);
+  border-bottom: 4px solid var(--p-7);
 }
 .hover-p8 ::slotted(a:hover){
-  background-color: var(--p-8);
+  border-bottom: 4px solid var(--p-8);
 }
 .hover-p9 ::slotted(a:hover){
-  background-color: var(--p-9);
+  border-bottom: 4px solid var(--p-9);
 }
 .hover-p10 ::slotted(a:hover){
-  background-color: var(--p-10);
+  border-bottom: 4px solid var(--p-10);
 }
 
 /*Green hovering*/
 .hover-g1 ::slotted(a:hover){
-  background-color: var(--g-1);
+  border-bottom: 4px solid var(--g-1);
 }
 .hover-g2 ::slotted(a:hover){
-  background-color: var(--g-2);
+  border-bottom: 4px solid var(--g-2);
 }
 .hover-g3 ::slotted(a:hover){
-  background-color: var(--g-3);
+  border-bottom: 4px solid var(--g-3);
 }
 .hover-g4 ::slotted(a:hover){
-  background-color: var(--g-4);
+  border-bottom: 4px solid var(--g-4);
 }
 .hover-g5 ::slotted(a:hover){
-  background-color: var(--g-5);
+  border-bottom: 4px solid var(--g-5);
 }
 .hover-g6 ::slotted(a:hover){
-  background-color: var(--g-6);
+  border-bottom: 4px solid var(--g-6);
 }
 .hover-g7 ::slotted(a:hover){
-  background-color: var(--g-7);
+  border-bottom: 4px solid var(--g-7);
 }
 .hover-g8 ::slotted(a:hover){
-  background-color: var(--g-8);
+  border-bottom: 4px solid var(--g-8);
 }
 .hover-g9 ::slotted(a:hover){
-  background-color: var(--g-9);
+  border-bottom: 4px solid var(--g-9);
 }
 .hover-g10 ::slotted(a:hover){
-  background-color: var(--g-10);
+  border-bottom: 4px solid var(--g-10);
 }
 
 /*Bron hovering*/
 .hover-br1 ::slotted(a:hover){
-  background-color: var(--br-1);
+  border-bottom: 4px solid var(--br-1);
 }
 .hover-br2 ::slotted(a:hover){
-  background-color: var(--br-2);
+  border-bottom: 4px solid var(--br-2);
 }
 .hover-br3 ::slotted(a:hover){
-  background-color: var(--br-3);
+  border-bottom: 4px solid var(--br-3);
 }
 .hover-br4 ::slotted(a:hover){
-  background-color: var(--br-4);
+  border-bottom: 4px solid var(--br-4);
 }
 .hover-br5 ::slotted(a:hover){
-  background-color: var(--br-5);
+  border-bottom: 4px solid var(--br-5);
 }
 .hover-br6 ::slotted(a:hover){
-  background-color: var(--br-6);
+  border-bottom: 4px solid var(--br-6);
 }
 .hover-br7 ::slotted(a:hover){
-  background-color: var(--br-7);
+  border-bottom: 4px solid var(--br-7);
 }
 .hover-br8 ::slotted(a:hover){
-  background-color: var(--br-8);
+  border-bottom: 4px solid var(--br-8);
 }
 .hover-br9 ::slotted(a:hover){
-  background-color: var(--br-9);
+  border-bottom: 4px solid var(--br-9);
 }
 .hover-br10 ::slotted(a:hover){
-  background-color: var(--br-10);
+  border-bottom: 4px solid var(--br-10);
 }
-
-
 

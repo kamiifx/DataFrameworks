@@ -23,9 +23,15 @@ export namespace Components {
     interface KronForm {
         "information": string;
     }
+    interface KronHeadline {
+        "appereance": string;
+        "backgroundpicture": string;
+    }
     interface KronNavbar {
+        "appereance": string;
+        "contactlogo": string;
         "kronlayout": string;
-        "ultag": string;
+        "navlogo": string;
     }
     interface KronSection {
         "header": string;
@@ -71,6 +77,12 @@ declare global {
         prototype: HTMLKronFormElement;
         new (): HTMLKronFormElement;
     };
+    interface HTMLKronHeadlineElement extends Components.KronHeadline, HTMLStencilElement {
+    }
+    var HTMLKronHeadlineElement: {
+        prototype: HTMLKronHeadlineElement;
+        new (): HTMLKronHeadlineElement;
+    };
     interface HTMLKronNavbarElement extends Components.KronNavbar, HTMLStencilElement {
     }
     var HTMLKronNavbarElement: {
@@ -94,6 +106,7 @@ declare global {
         "kron-box": HTMLKronBoxElement;
         "kron-figure": HTMLKronFigureElement;
         "kron-form": HTMLKronFormElement;
+        "kron-headline": HTMLKronHeadlineElement;
         "kron-navbar": HTMLKronNavbarElement;
         "kron-section": HTMLKronSectionElement;
         "my-component": HTMLMyComponentElement;
@@ -117,9 +130,15 @@ declare namespace LocalJSX {
     interface KronForm {
         "information"?: string;
     }
+    interface KronHeadline {
+        "appereance"?: string;
+        "backgroundpicture"?: string;
+    }
     interface KronNavbar {
+        "appereance"?: string;
+        "contactlogo"?: string;
         "kronlayout"?: string;
-        "ultag"?: string;
+        "navlogo"?: string;
     }
     interface KronSection {
         "header"?: string;
@@ -144,6 +163,7 @@ declare namespace LocalJSX {
         "kron-box": KronBox;
         "kron-figure": KronFigure;
         "kron-form": KronForm;
+        "kron-headline": KronHeadline;
         "kron-navbar": KronNavbar;
         "kron-section": KronSection;
         "my-component": MyComponent;
@@ -157,6 +177,7 @@ declare module "@stencil/core" {
             "kron-box": LocalJSX.KronBox & JSXBase.HTMLAttributes<HTMLKronBoxElement>;
             "kron-figure": LocalJSX.KronFigure & JSXBase.HTMLAttributes<HTMLKronFigureElement>;
             "kron-form": LocalJSX.KronForm & JSXBase.HTMLAttributes<HTMLKronFormElement>;
+            "kron-headline": LocalJSX.KronHeadline & JSXBase.HTMLAttributes<HTMLKronHeadlineElement>;
             "kron-navbar": LocalJSX.KronNavbar & JSXBase.HTMLAttributes<HTMLKronNavbarElement>;
             "kron-section": LocalJSX.KronSection & JSXBase.HTMLAttributes<HTMLKronSectionElement>;
             "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;

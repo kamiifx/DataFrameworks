@@ -6,18 +6,25 @@ import { Component, h, Prop} from '@stencil/core';
   shadow: true,
 })
 export class KronNavbar {
-  @Prop() ultag: string;
+  @Prop() appereance: string;
   @Prop() kronlayout:string;
+  @Prop() navlogo:string;
+  @Prop() contactlogo:string
+
 
   render() {
     return (
-     <ul class={`${this.ultag} " "${this.kronlayout}`}> 
-    
+     <div class={`nav ${this.appereance} ${this.kronlayout}`}> 
+    <h2 class="logotitle"> {this.navlogo} </h2>
+
+    <div class="items">
       <slot>
       
         </slot>
-     
-        </ul>
+        
+      </div>
+      <h3 class="contact"> {this.contactlogo} </h3>
+    </div>
      
     );
   }
