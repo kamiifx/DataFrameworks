@@ -13,19 +13,18 @@ export namespace Components {
         "displaymode": string;
     }
     interface KronFigure {
-        "figcaption": string;
-        "image": any;
-        "isValid": boolean;
+        "appearance": string;
     }
     interface KronForm {
-        "information": string;
+        "appearance": string;
+        "image": boolean;
     }
     interface KronNavbar {
         "kronlayout": string;
         "ultag": string;
     }
     interface KronSection {
-        "header": string;
+        "appearance": string;
         "text": string;
     }
     interface MyComponent {
@@ -104,19 +103,18 @@ declare namespace LocalJSX {
         "displaymode"?: string;
     }
     interface KronFigure {
-        "figcaption"?: string;
-        "image"?: any;
-        "isValid"?: boolean;
+        "appearance"?: string;
     }
     interface KronForm {
-        "information"?: string;
+        "appearance"?: string;
+        "image"?: boolean;
     }
     interface KronNavbar {
         "kronlayout"?: string;
         "ultag"?: string;
     }
     interface KronSection {
-        "header"?: string;
+        "appearance"?: string;
         "text"?: string;
     }
     interface MyComponent {

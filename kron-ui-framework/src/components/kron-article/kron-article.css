@@ -1,68 +1,263 @@
 :host {
   display: block;
 }
-
 .article {
   margin: 0;
-  margin-top: 5px;
-  text-align: center;
-  background-color: var(--gr-1);
 }
-.article ::slotted(p){
-  margin: 0;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: medium;
-  color: var(--gr-1);
-}
-.article ::slotted(p:hover){
-  margin: 0;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: medium;
-  color: var(--gr-10);
-}
-.article:hover {
-  margin: 0;
-  margin-top: 5px;
-  text-align: center;
-  text-decoration: underline;
-  background-color: var(--gr-10);
 
+.serif{
+  font-family:'Times New Roman', Times, serif
+}
+.sans-serif{
+  font-family:Arial, Helvetica, sans-serif
+}
+.monospace{
+  font-family: 'Courier New', Courier, monospace;
+}
+.fantasy{
+  font-family: 'Copperplate', 'Papyrus';
 }
 
 .fontLarge{
   font-size: medium;
+}
+.fontLarge:hover{
+  font-size: medium;
   text-align: center;
   text-decoration: underline;
+}
+
+.right{
+  float: right;
+}
+
+.left{
+  float: left;
+}
+.center{
+  margin-left: 50%;
+  margin-right: 50%;
 }
 
 .fontMedium{
   font-size: medium;
-  text-align: center;
+}
+.fontMedium:hover{
+  font-size: medium;
   text-decoration: underline;
-
 }
 .fontSmall{
-  font-size: medium;
-  text-align: center;
+  font-size: small;
+}
+.fontSmall:hover{
+  font-size: small;
   text-decoration: underline;
-
 }
-.h3 {
-  margin: 0;
-  font-family: 'Times New Roman', Times, serif;
+.textRight{
+  text-align: right;
+}
+.textLeft{
+  text-align: left;
+}
+.textCenter{
   text-align: center;
 }
 
-.h2 {
-
-  margin: 0;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: medium;
+.red1{
+  background-color: var(--r-1);
 }
-
-.p{
-  margin: 0;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: medium;
+.red2{
+  background-color: var(--r-2);
 }
-
+.red3{
+  background-color: var(--r-3);
+}
+.red4{
+  background-color: var(--r-4);
+}
+.red5{
+  background-color: var(--r-5);
+}
+.red1{
+  background-color: var(--r-1);
+}
+.red6{
+  background-color: var(--r-2);
+}
+.red7{
+  background-color: var(--r-3);
+}
+.red8{
+  background-color: var(--r-4);
+}
+.red9{
+  background-color: var(--r-5);
+}
+.red10{
+  background-color: var(--r-5);
+}
+/* 
+Blue
+*/
+.blue1{
+  background-color: var(--b-1);
+}
+.blue2{
+  background-color: var(--b-2);
+}
+.blue3{
+  background-color: var(--b-3);
+}
+.blue4{
+  background-color: var(--b-4);
+}
+.blue5{
+  background-color: var(--b-5);
+}
+.blue6{
+  background-color: var(--b-6);
+}
+.blue7{
+  background-color: var(--b-7);
+}
+.blue8{
+  background-color: var(--b-8);
+}
+.blue9{
+  background-color: var(--b-9);
+}
+.blue10{
+  background-color: var(--b-10);
+}
+/*
+Grey
+*/
+.grey1{
+  background-color: var(--gr-1);
+}
+.grey2{
+  background-color: var(--gr-2);
+}
+.grey3{
+  background-color: var(--gr-3);
+}
+.grey4{
+  background-color: var(--gr-4);
+}
+.grey5{
+  background-color: var(--gr-5);
+}
+.grey6{
+  background-color: var(--gr-6);
+}
+.grey7{
+  background-color: var(--gr-7);
+}
+.grey8{
+  background-color: var(--gr-8);
+}
+.grey9{
+  background-color: var(--gr-9);
+}
+.grey10{
+  background-color: var(--gr-10);
+}
+/*
+gray
+*/
+.gray1{
+  background-color: var(--ge-1);
+}
+.gray2{
+  background-color: var(--ge-2);
+}
+.gray3{
+  background-color: var(--ge-3);
+}
+.gray4{
+  background-color: var(--ge-4);
+}
+.gray5{
+  background-color: var(--ge-5);
+}
+.gray6{
+  background-color: var(--ge-6);
+}
+.gray7{
+  background-color: var(--ge-7);
+}
+.gray8{
+  background-color: var(--ge-8);
+}
+.gray9{
+  background-color: var(--ge-9);
+}
+.gray10{
+  background-color: var(--ge-10);
+}
+/*
+ Yellow 
+*/
+.yellow1{
+  background-color: var(--y-1);
+}
+.yellow2{
+  background-color: var(--y-2);
+}
+.yellow3{
+  background-color: var(--y-3);
+}
+.yellow4{
+  background-color: var(--y-4);
+}
+.yellow5{
+  background-color: var(--y-5);
+}
+.yellow6{
+  background-color: var(--y-6);
+}
+.yellow7{
+  background-color: var(--y-7);
+}
+.yellow8{
+  background-color: var(--y-8);
+}
+.yellow9{
+  background-color: var(--y-9);
+}
+.yellow10{
+  background-color: var(--y-10);
+}
+/*
+Green
+*/
+.green1{
+  background-color: var(--ge-1);
+}
+.green2{
+  background-color: var(--ge-2);
+}
+.green3{
+  background-color: var(--ge-3);
+}
+.green4{
+  background-color: var(--ge-4);
+}
+.green5{
+  background-color: var(--ge-5);
+}
+.green6{
+  background-color: var(--ge-6);
+}
+.green7{
+  background-color: var(--ge-7);
+}
+.green8{
+  background-color: var(--ge-8);
+}
+.green9{
+  background-color: var(--ge-9);
+}
+.green10{
+  background-color: var(--ge-10);
+}

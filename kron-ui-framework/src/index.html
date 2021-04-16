@@ -4,17 +4,44 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
     <title>Stencil Component Starter</title>
-    <link rel="stylesheet" href="/build/kron-ui-framework.css">
+    <link rel="stylesheet" href="/build/kron-ui-framework.css" />
     <script type="module" src="/build/kron-ui-framework.esm.js"></script>
     <script nomodule src="/build/kron-ui-framework.js"></script>
-
   </head>
   <body>
     <main>
-      <kron-article appearance="article"  titles="string name">
-        <h2 >Introdruction</h2>
+      <kron-section appearance="section textCenter fontSmall">
+        <h1>header</h1>
+      </kron-section>
+
+      <kron-article appearance="article textCenter fontLarge">
+        <h2>Introdruction</h2>
         <p>this is a test</p>
       </kron-article>
+      <kron-article appearance="article textCenter fontMedium">
+        <h2>Introdruction</h2>
+        <p>this is a test</p>
+      </kron-article>
+
+      <kron-figure appearance="figure left textCenter grey">
+        <img src="https://static.posters.cz/image/1300/fototapet/above-the-clouds-sky-416x254-cm-premium-non-woven-130gsm-i77999.jpg" alt="" />
+        <figcaption>hello detter er en stest</figcaption>
+      </kron-figure>
+
+      <kron-form appearance="center textcenter serif" image="true">
+        <h2>registrer bruker</h2>
+        <input type="text" name="fornavn" placeholder="  Fornavn" required/>
+
+        <input type="text" name="etternavn" placeholder="  Etternavn" required />
+
+        <input type="email" name="email" placeholder="  Email" required />
+
+        <input type="tel"  name="telephone" placeholder="  Phone number" pattern="[0-9] {8}" required />
+
+        <button>knapp</button>
+
+      </kron-form>
+
     </main>
   </body>
 </html>
