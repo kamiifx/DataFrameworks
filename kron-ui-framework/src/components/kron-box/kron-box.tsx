@@ -15,9 +15,6 @@ export class KronBox {
           
   <div class={this.displaymode}>
 <slot>
-<slot>
-            
- </slot>
    
 </slot>
   </div>

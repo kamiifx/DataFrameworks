@@ -1,37 +1,77 @@
-.flex-row-wrap{
-  display: flex;     
-  flex-direction: row;    
-    height: auto;  
-    flex-wrap: wrap;   
-    background-color: white;
-    max-width: 100%;
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+.headliner{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  font-family: sans-serif;
+  margin-bottom: 2px;
+  color: black;
+  letter-spacing: 3px;
+  font-weight: 300;
+  font-size: 2em;
+
+}
+.headliner img{
+  background-size: cover;
+  border-radius: 30%;
+  z-index: -2;
+
+}
+.center{
+  text-align: center;
+  align-items: center;
+}
+.center ::slotted(h1){
+  align-items: center;
 
 }
 
-.flex-row-wrap ::slotted(div){
-  width: 250px;
-  height: 250px;
-  background-color: lightgray;
-  margin: 10px;
-  border: solid 2px black;
-
+.left{
+  text-align: left;
+  align-items: left;
 }
 
-.flex-column-wrap{
-  display: flex;     
-  flex-direction: column;    
-    height: auto;  
-    flex-wrap: wrap;   
-    background-color: white;
-    max-width: 100%;
-
+.left ::slotted(h1){
+  align-items: left;
 }
-.flex-column-wrap ::slotted(div){
-  width: 250px;
-  height: 250px;
 
-  margin: 10px;
-  border: solid 2px black;
+.right{
+  text-align: right;
+  align-items: right;
+}
+.right ::slotted(h1){
+  align-items: right;
+}
+
+.area {
+  animation: blur 0.75s ease infinite;
+  text-shadow: 0px 0px 2px #fff, 0px 0px 4px #fff;
+}
+  
+  
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 3px #fff,
+      0px 0px 4px #fff, 
+      0px 0px 5px #fff,
+      0px 0px 5px #fff,
+      0px 0px 5px #fff,
+      0px 0px 4px #fff,
+      0px 0px 5px #fff,
+      0px 0px 10px #fff,
+      0px 0px 15px #fff,
+      0px 0px 20px #fff,
+      0px 0px 25px #7B96B8,
+      0px 0px 30px #7B96B8,
+      0px 10px 35px #7B96B8,
+      0px 10px 40px #7B96B8,
+      0px 10px 50px #7B96B8,
+      0px 10px 55px #7B96B8,
+      0px -10px 60px #7B96B8,
+      0px -10px 65px #7B96B8;
+  }
 }
 
 /*Colors*/
@@ -310,160 +350,164 @@ Brown
   background-color: var(--br-10);
 }
 
-.backcolor-r1 ::slotted(div){
+/*
+Hovor colors
+*/
+/*Red bccoloring*/
+.bccolor-r1 ::slotted(h1){
   background-color: var(--r-1);
 }
-.backcolor-r2 ::slotted(div){
+.bccolor-r2 ::slotted(h1){
   background-color: var(--r-2);
 }
-.backcolor-r3 ::slotted(div){
+.bccolor-r3 ::slotted(h1){
   background-color: var(--r-3);
 }
-.backcolor-r4 ::slotted(div){
+.bccolor-r4 ::slotted(h1){
   background-color: var(--r-4);
 }
-.backcolor-r5 ::slotted(div){
+.bccolor-r5 ::slotted(h1){
   background-color: var(--r-5);
 }
-.backcolor-r6 ::slotted(div){
+.bccolor-r6 ::slotted(h1){
   background-color: var(--r-6);
 }
-.backcolor-r7 ::slotted(div){
+.bccolor-r7 ::slotted(h1){
   background-color: var(--r-7);
 }
-.backcolor-r8 ::slotted(div){
+.bccolor-r8 ::slotted(h1){
   background-color: var(--r-8);
 }
-.backcolor-r9 ::slotted(div){
+.bccolor-r9 ::slotted(h1){
   background-color: var(--r-9);
 }
-.backcolor-r10 ::slotted(div){
+.bccolor-r10 ::slotted(h1){
   background-color: var(--r-10);
 }
 
-/*Blue backcoloring*/
-.backcolor-b1 ::slotted(div){
+/*Blue bccoloring*/
+.bccolor-b1 ::slotted(h1){
   background-color: var(--b-1);
 }
-.backcolor-b2 ::slotted(div){
+.bccolor-b2 ::slotted(h1){
   background-color: var(--b-2);
 }
-.backcolor-b3 ::slotted(div){
+.bccolor-b3 ::slotted(h1){
   background-color: var(--b-3);
 }
-.backcolor-b4 ::slotted(div){
+.bccolor-b4 ::slotted(h1){
   background-color: var(--b-4);
 }
-.backcolor-b5 ::slotted(div){
+.bccolor-b5 ::slotted(h1){
   background-color: var(--b-5);
 }
-.backcolor-b6 ::slotted(div){
+.bccolor-b6 ::slotted(h1){
   background-color: var(--b-6);
 }
-.backcolor-b7 ::slotted(div){
+.bccolor-b7 ::slotted(h1){
   background-color: var(--b-7);
 }
-.backcolor-b8 ::slotted(div){
+.bccolor-b8 ::slotted(h1){
   background-color: var(--b-8);
 }
-.backcolor-b9 ::slotted(div){
+.bccolor-b9 ::slotted(h1){
   background-color: var(--b-9);
 }
-.backcolor-b10 ::slotted(div){
+.bccolor-b10 ::slotted(h1){
   background-color: var(--b-10);
 }
 
-/*Grey backcoloring*/
-.backcolor-gr1 ::slotted(div){
+/*Grey bccoloring*/
+.bccolor-gr1 ::slotted(h1){
   background-color: var(--gr-1);
 }
-.backcolor-gr2 ::slotted(div){
+.bccolor-gr2 ::slotted(h1){
   background-color: var(--gr-2);
 }
-.backcolor-gr3 ::slotted(div){
+.bccolor-gr3 ::slotted(h1){
   background-color: var(--gr-3);
 }
-.backcolor-gr4 ::slotted(div){
+.bccolor-gr4 ::slotted(h1){
   background-color: var(--gr-4);
 }
-.backcolor-gr5 ::slotted(div){
+.bccolor-gr5 ::slotted(h1){
   background-color: var(--gr-5);
 }
-.backcolor-gr6 ::slotted(div){
+.bccolor-gr6 ::slotted(h1){
   background-color: var(--gr-6);
 }
-.backcolor-gr7 ::slotted(div){
+.bccolor-gr7 ::slotted(h1){
   background-color: var(--gr-7);
 }
-.backcolor-gr8 ::slotted(div){
+.bccolor-gr8 ::slotted(h1){
   background-color: var(--gr-8);
 }
-.backcolor-gr9 ::slotted(div){
+.bccolor-gr9 ::slotted(h1){
   background-color: var(--gr-9);
 }
-.backcolor-gr10 ::slotted(div){
+.bccolor-gr10 ::slotted(h1){
   background-color: var(--gr-10);
 }
-/*Gray backcoloring*/
-.backcolor-ge1 ::slotted(div){
+/*Gray bccoloring*/
+.bccolor-ge1 ::slotted(h1){
   background-color: var(--ge-1);
 }
-.backcolor-ge2 ::slotted(div){
+.bccolor-ge2 ::slotted(h1){
   background-color: var(--ge-2);
 }
-.backcolor-ge3 ::slotted(div){
+.bccolor-ge3 ::slotted(h1){
   background-color: var(--ge-3);
 }
-.backcolor-ge4 ::slotted(div){
+.bccolor-ge4 ::slotted(h1){
   background-color: var(--ge-4);
 }
-.backcolor-ge5 ::slotted(div){
+.bccolor-ge5 ::slotted(h1){
   background-color: var(--ge-5);
 }
-.backcolor-ge6 ::slotted(div){
+.bccolor-ge6 ::slotted(h1){
   background-color: var(--ge-6);
 }
-.backcolor-ge7 ::slotted(div){
+.bccolor-ge7 ::slotted(h1){
   background-color: var(--ge-7);
 }
-.backcolor-ge8 ::slotted(div){
+.bccolor-ge8 ::slotted(h1){
   background-color: var(--ge-8);
 }
-.backcolor-ge9 ::slotted(div){
+.bccolor-ge9 ::slotted(h1){
   background-color: var(--ge-9);
 }
-.backcolor-ge10 ::slotted(div){
+.bccolor-ge10 ::slotted(h1){
   background-color: var(--ge-10);
 }
-/*Yellow backcoloring*/
-.backcolor-y1 ::slotted(div){
+/*Yellow bccoloring*/
+.bccolor-y1 ::slotted(h1){
   background-color: var(--y-1);
 }
-.backcolor-y2 ::slotted(div){
+.bccolor-y2 ::slotted(h1){
   background-color: var(--y-2);
 }
-.backcolor-y3 ::slotted(div){
+.bccolor-y3 ::slotted(h1){
   background-color: var(--y-3);
 }
-.backcolor-y4 ::slotted(div){
+.bccolor-y4 ::slotted(h1){
   background-color: var(--y-4);
 }
-.backcolor-y5 ::slotted(div){
+.bccolor-y5 ::slotted(h1){
   background-color: var(--y-5);
 }
-.backcolor-y6 ::slotted(div){
+.bccolor-y6 ::slotted(h1){
   background-color: var(--y-6);
 }
-.backcolor-y7 ::slotted(div){
+.bccolor-y7 ::slotted(h1){
   background-color: var(--y-7);
 }
-.backcolor-y8 ::slotted(div){
+.bccolor-y8 ::slotted(h1){
   background-color: var(--y-8);
 }
-.backcolor-y9 ::slotted(div){
+.bccolor-y9 ::slotted(h1){
   background-color: var(--y-9);
 }
-.backcolor-y10 ::slotted(div){
+.bccolor-y10 ::slotted(h1){
   background-color: var(--y-10);
 }
 
@@ -471,98 +515,98 @@ Brown
 
 
 
-/*Pink backcoloring*/
-.backcolor-p1 ::slotted(div){
+/*Pink bccoloring*/
+.bccolor-p1 ::slotted(h1){
   background-color: var(--p-1);
 }
-.backcolor-p2 ::slotted(div){
+.bccolor-p2 ::slotted(h1){
   background-color: var(--p-2);
 }
-.backcolor-p3 ::slotted(div){
+.bccolor-p3 ::slotted(h1){
   background-color: var(--p-3);
 }
-.backcolor-p4 ::slotted(div){
+.bccolor-p4 ::slotted(h1){
   background-color: var(--p-4);
 }
-.backcolor-p5 ::slotted(div){
+.bccolor-p5 ::slotted(h1){
   background-color: var(--p-5);
 }
-.backcolor-p6 ::slotted(div){
+.bccolor-p6 ::slotted(h1){
   background-color: var(--p-6);
 }
-.backcolor-p7 ::slotted(div){
+.bccolor-p7 ::slotted(h1){
   background-color: var(--p-7);
 }
-.backcolor-p8 ::slotted(div){
+.bccolor-p8 ::slotted(h1){
   background-color: var(--p-8);
 }
-.backcolor-p9 ::slotted(div){
+.bccolor-p9 ::slotted(h1){
   background-color: var(--p-9);
 }
-.backcolor-p10 ::slotted(div){
+.bccolor-p10 ::slotted(h1){
   background-color: var(--p-10);
 }
 
-/*Green backcoloring*/
-.backcolor-g1 ::slotted(div){
+/*Green bccoloring*/
+.bccolor-g1 ::slotted(h1){
   background-color: var(--g-1);
 }
-.backcolor-g2 ::slotted(div){
+.bccolor-g2 ::slotted(h1){
   background-color: var(--g-2);
 }
-.backcolor-g3 ::slotted(div){
+.bccolor-g3 ::slotted(h1){
   background-color: var(--g-3);
 }
-.backcolor-g4 ::slotted(div){
+.bccolor-g4 ::slotted(h1){
   background-color: var(--g-4);
 }
-.backcolor-g5 ::slotted(div){
+.bccolor-g5 ::slotted(h1){
   background-color: var(--g-5);
 }
-.backcolor-g6 ::slotted(div){
+.bccolor-g6 ::slotted(h1){
   background-color: var(--g-6);
 }
-.backcolor-g7 ::slotted(div){
+.bccolor-g7 ::slotted(h1){
   background-color: var(--g-7);
 }
-.backcolor-g8 ::slotted(div){
+.bccolor-g8 ::slotted(h1){
   background-color: var(--g-8);
 }
-.backcolor-g9 ::slotted(div){
+.bccolor-g9 ::slotted(h1){
   background-color: var(--g-9);
 }
-.backcolor-g10 ::slotted(div){
+.bccolor-g10 ::slotted(h1){
   background-color: var(--g-10);
 }
 
-/*Bron backcoloring*/
-.backcolor-br1 ::slotted(div){
+/*Bron bccoloring*/
+.bccolor-br1 ::slotted(h1){
   background-color: var(--br-1);
 }
-.backcolor-br2 ::slotted(div){
+.bccolor-br2 ::slotted(h1){
   background-color: var(--br-2);
 }
-.backcolor-br3 ::slotted(div){
+.bccolor-br3 ::slotted(h1){
   background-color: var(--br-3);
 }
-.backcolor-br4 ::slotted(div){
+.bccolor-br4 ::slotted(h1){
   background-color: var(--br-4);
 }
-.backcolor-br5 ::slotted(div){
+.bccolor-br5 ::slotted(h1){
   background-color: var(--br-5);
 }
-.backcolor-br6 ::slotted(div){
+.bccolor-br6 ::slotted(h1){
   background-color: var(--br-6);
 }
-.backcolor-br7 ::slotted(div){
+.bccolor-br7 ::slotted(h1){
   background-color: var(--br-7);
 }
-.backcolor-br8 ::slotted(div){
+.bccolor-br8 ::slotted(h1){
   background-color: var(--br-8);
 }
-.backcolor-br9 ::slotted(div){
+.bccolor-br9 ::slotted(h1){
   background-color: var(--br-9);
 }
-.backcolor-br10 ::slotted(div){
+.bccolor-br10 ::slotted(h1){
   background-color: var(--br-10);
 }
