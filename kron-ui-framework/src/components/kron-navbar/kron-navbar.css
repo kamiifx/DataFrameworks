@@ -11,7 +11,7 @@
   justify-content: space-around;
   text-decoration: none;
   background-color:#f1f1f1;
-  
+
 }
 .navbar ::slotted(a){
   margin-top: 5px;
@@ -20,7 +20,7 @@
 .navbar ::slotted(a:hover){
   color: antiquewhite;
   cursor: pointer;
-  
+
 }
 .navbar ::slotted(a:visited){
   color: inherit;
@@ -30,7 +30,7 @@
   left:90%;
   height: auto;
   position: fixed;
-  align-content: center;  
+  align-content: center;
   justify-content: baseline;
   list-style-type: none;
   background-color: #f1f1f1;
@@ -67,7 +67,7 @@ opacity: 0.9;
   width: 100%;
   justify-content: space-around;
   text-decoration: none;
-  
+
 }
 
 .horisontal ::slotted(a){
