@@ -11,9 +11,12 @@ export class KronMenu {
 
   render() {
     return (
-      <div class={this.appreance}>
-        <h3>{this.menu}</h3>
-        <div>
+      <div class={`container ${this.appreance}`}>
+        <div class="header">
+          <h3>{this.menu}</h3>
+          <span>&#128772;</span>
+        </div>
+        <div class="items">
           <slot>
           </slot>
         </div>
