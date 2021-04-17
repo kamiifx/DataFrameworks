@@ -4,34 +4,33 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
     <title>Stencil Component Starter</title>
-    <link rel="stylesheet" href="/build/kron-ui-framework.css">
-    <script type="module" src="/build/kron-ui-framework.esm.js"></script>
-    <script nomodule src="/build/kron-ui-framework.js"></script>
-
+    <link rel="stylesheet" href="/build/kron-ui.css" />
+    <script type="module" src="/build/kron-ui.esm.js"></script>
+    <script nomodule src="/build/kron-ui.js"></script>
   </head>
   <body>
- <kron-headline appereance="headliner center bccolor-b1" backgroundpicture="https://www.adressa.no/incoming/article1214418.ece5/BINARY/w780/Film%20shrek"> 
+ <kron-headline appereance="headliner center bccolor-b1" backgroundpicture="https://www.adressa.no/incoming/article1214418.ece5/BINARY/w780/Film%20shrek">
       <h1> NRK Side</h1>
     </kron-headline>
 
-   
-    <!-- Properties for kron-navbar:
-          property: ultag="classname" 
 
-           attributes/classes: 
+    <!-- Properties for kron-navbar:
+          property: ultag="classname"
+
+           attributes/classes:
            "navbar vertical"
            "navbar horisontal"
-            To add a color write the name of the color and then add how strong 
+            To add a color write the name of the color and then add how strong
             you want the color to be 1 being weakest 10 being strongest
            Example shown below
     -->
-   <kron-navbar appereance="blue2 hover-p9"  navlogo="TESTLOGO" contactlogo="NRk super" > 
-  
-  <a href=""> Home </a> 
-  <a href=""> Settings </a>  
-  <a href=""> Pixels </a>  
- <a href=""> JustaLongsentence </a> 
- <a href=""> Short </a>  
+   <kron-navbar appereance="blue2 hover-p9"  navlogo="TESTLOGO" contactlogo="NRk super" >
+
+  <a href=""> Home </a>
+  <a href=""> Settings </a>
+  <a href=""> Pixels </a>
+ <a href=""> JustaLongsentence </a>
+ <a href=""> Short </a>
   <a href=""> test</a>
 </kron-navbar>
 
@@ -41,29 +40,32 @@
        attributes:
         "flex-row-wrap"
         "flex-column-wrap"
-         To add a color write the name of the color and then add how strong 
+         To add a color write the name of the color and then add how strong
            you want the color to be 1 being weakest 10 being strongest
 
            To target background color of your wanted component type backcolor-(b1-b10)
-           for blue strenght 1 to 10 
-      
+           for blue strenght 1 to 10
+
         Example shown below
       -->
- <kron-box displaymode="flex-row-wrap backcolor-b7"> 
+ <kron-box displaymode="flex-row-wrap backcolor-b7">
 
   <div> This</div>
   <div> is </div>
   <div> the same </div>
   <div> Component</div>
-</kron-box> 
+</kron-box>
+ <kron-menu menu='Test'>
+   <a href=''>Hei</a>
+ </kron-menu>
 
+<kron-box displaymode="flex-column-wrap r1">
 
-<kron-box displaymode="flex-column-wrap backcolor-r2"> 
+<kron-box displaymode="flex-column-wrap backcolor-r2">
 
   <div> as  </div>
   <div>this one </div>
 
 </kron-box>
-
   </body>
 </html>

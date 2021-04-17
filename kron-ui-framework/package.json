@@ -1,18 +1,17 @@
 {
-  "name": "kron-ui-framework",
-  "version": "0.0.1",
-  "description": "Stencil Component Starter",
-  "main": "dist/index.cjs.js",
+  "name": "kron-ui",
+  "version": "0.5.7",
+  "description": "Kron Ui Framework",
+  "main": "dist/index.js",
   "module": "dist/custom-elements/index.js",
   "es2015": "dist/esm/index.mjs",
   "es2017": "dist/esm/index.mjs",
   "types": "dist/custom-elements/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
   "collection:main": "dist/collection/index.js",
-  "unpkg": "dist/kron-ui-framework/kron-ui-framework.esm.js",
+  "unpkg": "dist/kron-ui/kron-ui.js",
   "files": [
-    "dist/",
-    "loader/"
+    "dist/"
   ],
   "scripts": {
     "build": "stencil build --docs",

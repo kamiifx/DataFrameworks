@@ -7,10 +7,12 @@
 
 ## Properties
 
-| Property     | Attribute    | Description | Type     | Default     |
-| ------------ | ------------ | ----------- | -------- | ----------- |
-| `kronlayout` | `kronlayout` |             | `string` | `undefined` |
-| `ultag`      | `ultag`      |             | `string` | `undefined` |
+| Property      | Attribute     | Description | Type     | Default     |
+| ------------- | ------------- | ----------- | -------- | ----------- |
+| `appereance`  | `appereance`  |             | `string` | `undefined` |
+| `contactlogo` | `contactlogo` |             | `string` | `undefined` |
+| `kronlayout`  | `kronlayout`  |             | `string` | `undefined` |
+| `navlogo`     | `navlogo`     |             | `string` | `undefined` |
 
 
 ----------------------------------------------
