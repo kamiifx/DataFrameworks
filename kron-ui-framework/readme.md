@@ -3,6 +3,7 @@
 
 > Kron UI is a simple UI Framework that helps create
 > beautiful Layouts, with simple Components.
+> This is part of DataFrameworks Exam @ HIOF GROUP 18
 
 ### Installation
 
@@ -17,15 +18,18 @@ yarn add kron-ui
 - Javascript
 - React
 
-#### JavaScript
-On existing project after install you can add the components like this
+#### Vanilla JavaScript
 
--picture here
+Starting with new a project starting with initializing the project
 
-Starting with new a project starting with initlizing the project
 ```sh
 npm init
 or
 yarn init
 ```
+
+After initialization, install Kron-UI as shown in the installation above.
+And you can starting importing components here is a example:
+
+
 
