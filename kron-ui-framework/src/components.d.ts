@@ -13,7 +13,11 @@ export namespace Components {
         "displaymode": string;
     }
     interface KronFigure {
+        "alt": string;
         "appearance": string;
+        "appearanceImage": string;
+        "img": string;
+        "text": string;
     }
     interface KronForm {
         "appearance": string;
@@ -22,10 +26,6 @@ export namespace Components {
     interface KronNavbar {
         "kronlayout": string;
         "ultag": string;
-    }
-    interface KronSection {
-        "appearance": string;
-        "text": string;
     }
     interface MyComponent {
         /**
@@ -73,12 +73,6 @@ declare global {
         prototype: HTMLKronNavbarElement;
         new (): HTMLKronNavbarElement;
     };
-    interface HTMLKronSectionElement extends Components.KronSection, HTMLStencilElement {
-    }
-    var HTMLKronSectionElement: {
-        prototype: HTMLKronSectionElement;
-        new (): HTMLKronSectionElement;
-    };
     interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {
     }
     var HTMLMyComponentElement: {
@@ -91,7 +85,6 @@ declare global {
         "kron-figure": HTMLKronFigureElement;
         "kron-form": HTMLKronFormElement;
         "kron-navbar": HTMLKronNavbarElement;
-        "kron-section": HTMLKronSectionElement;
         "my-component": HTMLMyComponentElement;
     }
 }
@@ -103,7 +96,11 @@ declare namespace LocalJSX {
         "displaymode"?: string;
     }
     interface KronFigure {
+        "alt"?: string;
         "appearance"?: string;
+        "appearanceImage"?: string;
+        "img"?: string;
+        "text"?: string;
     }
     interface KronForm {
         "appearance"?: string;
@@ -112,10 +109,6 @@ declare namespace LocalJSX {
     interface KronNavbar {
         "kronlayout"?: string;
         "ultag"?: string;
-    }
-    interface KronSection {
-        "appearance"?: string;
-        "text"?: string;
     }
     interface MyComponent {
         /**
@@ -137,7 +130,6 @@ declare namespace LocalJSX {
         "kron-figure": KronFigure;
         "kron-form": KronForm;
         "kron-navbar": KronNavbar;
-        "kron-section": KronSection;
         "my-component": MyComponent;
     }
 }
@@ -150,7 +142,6 @@ declare module "@stencil/core" {
             "kron-figure": LocalJSX.KronFigure & JSXBase.HTMLAttributes<HTMLKronFigureElement>;
             "kron-form": LocalJSX.KronForm & JSXBase.HTMLAttributes<HTMLKronFormElement>;
             "kron-navbar": LocalJSX.KronNavbar & JSXBase.HTMLAttributes<HTMLKronNavbarElement>;
-            "kron-section": LocalJSX.KronSection & JSXBase.HTMLAttributes<HTMLKronSectionElement>;
             "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
         }
     }
