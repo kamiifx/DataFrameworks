@@ -3,15 +3,11 @@
 }
 
 figure{
-  align-items: center;
   padding: 3%;
   display: block;
 }
 
 
-figcaption{
-  text-align: center;
-}
 
 .radius-10 {
   border-radius: 10%;
@@ -61,30 +57,6 @@ figcaption{
 .size-60{
   width: 60%;
   height: 60%;
-}
-
-.serif{
-  font-family:'Times New Roman', Times, serif
-}
-.sans-serif{
-  font-family:Arial, Helvetica, sans-serif
-}
-.monospace{
-  font-family: 'Courier New', Courier, monospace;
-}
-.fantasy{
-  font-family: 'Copperplate', 'Papyrus';
-}
-
-
-.large{
-  font-size: large;
-}
-.medium{
-  font-size: medium;
-}
-.small{
-  font-size: small;
 }
 
 .right{

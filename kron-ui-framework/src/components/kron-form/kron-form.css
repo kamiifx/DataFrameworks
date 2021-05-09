@@ -86,6 +86,7 @@ form ::slotted(button) {
 .left {
   float: left;
 }
+
 .center {
   margin-left: 50%;
   margin-right: 50%;

@@ -15,6 +15,7 @@ export namespace Components {
     interface KronFigure {
         "alt": string;
         "appearance": string;
+        "appearanceFig": string;
         "appearanceImage": string;
         "img": string;
         "text": string;
@@ -98,6 +99,7 @@ declare namespace LocalJSX {
     interface KronFigure {
         "alt"?: string;
         "appearance"?: string;
+        "appearanceFig"?: string;
         "appearanceImage"?: string;
         "img"?: string;
         "text"?: string;

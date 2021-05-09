@@ -10,10 +10,12 @@ export class KronFigure {
   
   @Prop() appearance: string;
   @Prop() appearanceImage: string;
+  @Prop() appearanceFig: string;
+
   @Prop() img: string;
   @Prop() text: string;
   @Prop() alt: string;
-  
+
   render() {
     return (
       <figure class={`${this.appearance}`}>
