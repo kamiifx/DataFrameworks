@@ -12,13 +12,11 @@ export class KronBox {
 
   render() {
     return (
-          
   <div class={this.displaymode}>
-<slot>
-   
-</slot>
+    <slot>
+      
+    </slot>
   </div>
-
     );
   }
 }

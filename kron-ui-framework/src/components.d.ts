@@ -30,7 +30,6 @@ export namespace Components {
     interface KronNavbar {
         "appereance": string;
         "contactlogo": string;
-        "kronlayout": string;
         "navlogo": string;
     }
     interface KronSection {
@@ -144,7 +143,6 @@ declare namespace LocalJSX {
     interface KronNavbar {
         "appereance"?: string;
         "contactlogo"?: string;
-        "kronlayout"?: string;
         "navlogo"?: string;
     }
     interface KronSection {
