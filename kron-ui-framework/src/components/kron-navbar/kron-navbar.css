@@ -325,6 +325,36 @@ Brown
 Hovor colors
 */
 /*Red hovering*/
+.hover-r1 ::slotted(a:hover){
+  border-bottom: 4px solid var(--r-1);
+}
+.hover-r2 ::slotted(a:hover){
+  border-bottom: 4px solid var(--r-2);
+}
+.hover-3 ::slotted(a:hover){
+  border-bottom: 4px solid var(--r-3);
+}
+.hover-r4 ::slotted(a:hover){
+  border-bottom: 4px solid var(--r-4);
+}
+.hover-r5 ::slotted(a:hover){
+  border-bottom: 4px solid var(--r-5);
+}
+.hover-r6 ::slotted(a:hover){
+  border-bottom: 4px solid var(--r-6);
+}
+.hover-r7 ::slotted(a:hover){
+  border-bottom: 4px solid var(--r-7);
+}
+.hover-r8 ::slotted(a:hover){
+  border-bottom: 4px solid var(--r-8);
+}
+.hover-r9 ::slotted(a:hover){
+  border-bottom: 4px solid var(--r-9);
+}
+.hover-r10 ::slotted(a:hover){
+  border-bottom: 4px solid var(--r-10);
+}
 /*Blue Hovering*/
 .hover-b1 ::slotted(a:hover){
   border-bottom: 4px solid var(--b-1);

@@ -10,7 +10,7 @@ export namespace Components {
         "appearance": string;
     }
     interface KronBox {
-        "displaymode": string;
+        "appearance": string;
     }
     interface KronFigure {
         "appearance": string;
@@ -28,7 +28,7 @@ export namespace Components {
         "menu": string;
     }
     interface KronNavbar {
-        "appereance": string;
+        "appearance": string;
         "contactlogo": string;
         "navlogo": string;
     }
@@ -123,7 +123,7 @@ declare namespace LocalJSX {
         "appearance"?: string;
     }
     interface KronBox {
-        "displaymode"?: string;
+        "appearance"?: string;
     }
     interface KronFigure {
         "appearance"?: string;
@@ -141,7 +141,7 @@ declare namespace LocalJSX {
         "menu"?: string;
     }
     interface KronNavbar {
-        "appereance"?: string;
+        "appearance"?: string;
         "contactlogo"?: string;
         "navlogo"?: string;
     }

@@ -13,6 +13,9 @@
   background-color: lightgray;
   margin: 10px;
   border: solid 2px black;
+  word-wrap: break-word;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 
 .flex-column-wrap{
@@ -28,6 +31,8 @@
   height: 250px;
   margin: 10px;
   border: solid 2px black;
+  word-wrap: break-word;
+
 }
 
 /*Colors*/
