@@ -3,14 +3,12 @@
   flex-direction: row;    
     height: auto;  
     flex-wrap: wrap;   
-    background-color: white;
     max-width: 100%;
 }
 
 .flex-row-wrap ::slotted(div){
   width: 250px;
   height: 250px;
-  background-color: lightgray;
   margin: 10px;
   border: solid 2px black;
   word-wrap: break-word;
@@ -23,7 +21,6 @@
   flex-direction: column;    
     height: auto;  
     flex-wrap: wrap;   
-    background-color: white;
     max-width: 100%;
 }
 .flex-column-wrap ::slotted(div){
