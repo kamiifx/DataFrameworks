@@ -24,7 +24,7 @@ export namespace Components {
         "backgroundpicture": string;
     }
     interface KronMenu {
-        "appreance": string;
+        "appearance": string;
         "menu": string;
     }
     interface KronNavbar {
@@ -138,7 +138,7 @@ declare namespace LocalJSX {
         "backgroundpicture"?: string;
     }
     interface KronMenu {
-        "appreance"?: string;
+        "appearance"?: string;
         "menu"?: string;
     }
     interface KronNavbar {
