@@ -6,16 +6,14 @@ import { Component, h, Prop} from '@stencil/core';
   shadow: true,
 })
 export class KronSection {
-  @Prop() header: string;
+  @Prop() appearance: string;
   @Prop() text: string;
   
 
   render() {
     return (
-      <section>
-        <h2>{this.header}</h2>
-        <p>{this.text}</p>
-        <slot name="content"/>
+      <section class={`${this.appearance}`}>
+        <slot/>
     </section>
     );
   }

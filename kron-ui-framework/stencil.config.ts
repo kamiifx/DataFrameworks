@@ -1,15 +1,12 @@
 import { Config } from '@stencil/core';
 
 export const config: Config = {
-  namespace: 'kron-ui-framework',
+  namespace: 'kron-ui',
   globalStyle: 'src/global/global.css',
+  buildEs5:true,
   outputTargets: [
     {
       type: 'dist',
-      esmLoaderPath: '../loader',
-    },
-    {
-      type: 'dist-custom-elements-bundle',
     },
     {
       type: 'docs-readme',
