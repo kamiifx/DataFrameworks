@@ -12,6 +12,9 @@ export namespace Components {
     interface KronBox {
         "displaymode": string;
     }
+    interface KronButton {
+        "appearance": string;
+    }
     interface KronFigure {
         "appearance": string;
     }
@@ -65,6 +68,12 @@ declare global {
         prototype: HTMLKronBoxElement;
         new (): HTMLKronBoxElement;
     };
+    interface HTMLKronButtonElement extends Components.KronButton, HTMLStencilElement {
+    }
+    var HTMLKronButtonElement: {
+        prototype: HTMLKronButtonElement;
+        new (): HTMLKronButtonElement;
+    };
     interface HTMLKronFigureElement extends Components.KronFigure, HTMLStencilElement {
     }
     var HTMLKronFigureElement: {
@@ -110,6 +119,7 @@ declare global {
     interface HTMLElementTagNameMap {
         "kron-article": HTMLKronArticleElement;
         "kron-box": HTMLKronBoxElement;
+        "kron-button": HTMLKronButtonElement;
         "kron-figure": HTMLKronFigureElement;
         "kron-form": HTMLKronFormElement;
         "kron-headline": HTMLKronHeadlineElement;
@@ -125,6 +135,9 @@ declare namespace LocalJSX {
     }
     interface KronBox {
         "displaymode"?: string;
+    }
+    interface KronButton {
+        "appearance"?: string;
     }
     interface KronFigure {
         "appearance"?: string;
@@ -168,6 +181,7 @@ declare namespace LocalJSX {
     interface IntrinsicElements {
         "kron-article": KronArticle;
         "kron-box": KronBox;
+        "kron-button": KronButton;
         "kron-figure": KronFigure;
         "kron-form": KronForm;
         "kron-headline": KronHeadline;
@@ -183,6 +197,7 @@ declare module "@stencil/core" {
         interface IntrinsicElements {
             "kron-article": LocalJSX.KronArticle & JSXBase.HTMLAttributes<HTMLKronArticleElement>;
             "kron-box": LocalJSX.KronBox & JSXBase.HTMLAttributes<HTMLKronBoxElement>;
+            "kron-button": LocalJSX.KronButton & JSXBase.HTMLAttributes<HTMLKronButtonElement>;
             "kron-figure": LocalJSX.KronFigure & JSXBase.HTMLAttributes<HTMLKronFigureElement>;
             "kron-form": LocalJSX.KronForm & JSXBase.HTMLAttributes<HTMLKronFormElement>;
             "kron-headline": LocalJSX.KronHeadline & JSXBase.HTMLAttributes<HTMLKronHeadlineElement>;
