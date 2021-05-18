@@ -5,7 +5,6 @@
     flex-wrap: wrap;   
     background-color: white;
     max-width: 100%;
-
 }
 
 .flex-row-wrap ::slotted(div){
@@ -14,7 +13,9 @@
   background-color: lightgray;
   margin: 10px;
   border: solid 2px black;
-
+  word-wrap: break-word;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 
 .flex-column-wrap{
@@ -24,14 +25,14 @@
     flex-wrap: wrap;   
     background-color: white;
     max-width: 100%;
-
 }
 .flex-column-wrap ::slotted(div){
   width: 250px;
   height: 250px;
-
   margin: 10px;
   border: solid 2px black;
+  word-wrap: break-word;
+
 }
 
 /*Colors*/
@@ -466,9 +467,6 @@ Brown
 .backcolor-y10 ::slotted(div){
   background-color: var(--y-10);
 }
-
-
-
 
 
 /*Pink backcoloring*/

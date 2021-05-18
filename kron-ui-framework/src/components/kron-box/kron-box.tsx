@@ -7,18 +7,16 @@ import { Component, h, Prop } from '@stencil/core';
 })
 export class KronBox {
 
-@Prop() displaymode: string;
+@Prop() appearance: string;
 
 
   render() {
     return (
-          
-  <div class={this.displaymode}>
-<slot>
-   
-</slot>
+  <div class={this.appearance}>
+    <slot>
+      
+    </slot>
   </div>
-
     );
   }
 }

@@ -7,9 +7,7 @@ background-color: blanchedalmond;
 align-items: center;
 font-family:Verdana, Geneva, Tahoma, sans-serif;
 position: relative;
-
 }
-
 
 .items{
  display: flex;
@@ -28,8 +26,6 @@ position: relative;
   text-decoration: none;
   margin-left: 35px;
   height: 40px;
-
-  
 }
 
 .items ::slotted(a:hover){
@@ -37,57 +33,18 @@ transition: 0.25s ease-in-out;
 font-size: 20px;
 border-radius: 2px;
 border-bottom: 4px solid var(--g-4);
-
-
 }
 
 .contact{
   height: auto;
   align-items: center;
   margin-right: 30px;
-  
 }
 
 .logotitle{
   margin-left: 55px;
   font-weight: 600;
-
 }
-
-/* VERTICAL *//*
-.vertical{
-  flex-direction: column;
-  left:90%;
-  height: auto;
-  position: relative;
-  background-color: #f1f1f1;
-
-}
-.vertical ::slotted(h2){
-  display: block;
-  color: #000;
-  align-items: left;
-}
-
-.vertical ::slotted(a){
-  display: block;
-  color: #000;
-  padding: 8px 16px;
-  align-items: center;
-}
-
-
-.vertical ::slotted(a:hover){
-color: white;
-opacity: 0.9;
-}
-
-.vertical ::slotted(a:hover){
-color: white;
-opacity: 0.9;
-
-}
-*/
 
 /*Colors*/
 /* 
@@ -368,6 +325,36 @@ Brown
 Hovor colors
 */
 /*Red hovering*/
+.hover-r1 ::slotted(a:hover){
+  border-bottom: 4px solid var(--r-1);
+}
+.hover-r2 ::slotted(a:hover){
+  border-bottom: 4px solid var(--r-2);
+}
+.hover-3 ::slotted(a:hover){
+  border-bottom: 4px solid var(--r-3);
+}
+.hover-r4 ::slotted(a:hover){
+  border-bottom: 4px solid var(--r-4);
+}
+.hover-r5 ::slotted(a:hover){
+  border-bottom: 4px solid var(--r-5);
+}
+.hover-r6 ::slotted(a:hover){
+  border-bottom: 4px solid var(--r-6);
+}
+.hover-r7 ::slotted(a:hover){
+  border-bottom: 4px solid var(--r-7);
+}
+.hover-r8 ::slotted(a:hover){
+  border-bottom: 4px solid var(--r-8);
+}
+.hover-r9 ::slotted(a:hover){
+  border-bottom: 4px solid var(--r-9);
+}
+.hover-r10 ::slotted(a:hover){
+  border-bottom: 4px solid var(--r-10);
+}
 /*Blue Hovering*/
 .hover-b1 ::slotted(a:hover){
   border-bottom: 4px solid var(--b-1);
