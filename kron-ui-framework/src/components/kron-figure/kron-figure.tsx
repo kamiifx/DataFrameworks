@@ -3,17 +3,24 @@ import { Component, h, Prop } from '@stencil/core';
 @Component({
   tag: 'kron-figure',
   styleUrl: 'kron-figure.css',
-  assetsDirs: ['assets'],
+  shadow: true,
+
 })
 export class KronFigure {
   
   @Prop() appearance: string;
- 
-  render() {
+  @Prop() appearanceImage: string;
+  @Prop() appearanceFig: string;
 
+  @Prop() img: string;
+  @Prop() text: string;
+  @Prop() alt: string;
+
+  render() {
     return (
       <figure class={`${this.appearance}`}>
-        <slot/>
+        <img class={`${this.appearanceImage}`} src={this.img} alt={this.alt}/>
+        <figcaption>{this.text}</figcaption>
     </figure>
     );
   }
