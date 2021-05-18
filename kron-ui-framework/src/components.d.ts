@@ -12,6 +12,9 @@ export namespace Components {
     interface KronBox {
         "appearance": string;
     }
+    interface KronButton {
+        "appearance": string;
+    }
     interface KronFigure {
         "alt": string;
         "appearance": string;
@@ -29,7 +32,7 @@ export namespace Components {
         "backgroundpicture": string;
     }
     interface KronMenu {
-        "appreance": string;
+        "appearance": string;
         "menu": string;
     }
     interface KronNavbar {
@@ -64,6 +67,12 @@ declare global {
     var HTMLKronBoxElement: {
         prototype: HTMLKronBoxElement;
         new (): HTMLKronBoxElement;
+    };
+    interface HTMLKronButtonElement extends Components.KronButton, HTMLStencilElement {
+    }
+    var HTMLKronButtonElement: {
+        prototype: HTMLKronButtonElement;
+        new (): HTMLKronButtonElement;
     };
     interface HTMLKronFigureElement extends Components.KronFigure, HTMLStencilElement {
     }
@@ -104,6 +113,7 @@ declare global {
     interface HTMLElementTagNameMap {
         "kron-article": HTMLKronArticleElement;
         "kron-box": HTMLKronBoxElement;
+        "kron-button": HTMLKronButtonElement;
         "kron-figure": HTMLKronFigureElement;
         "kron-form": HTMLKronFormElement;
         "kron-headline": HTMLKronHeadlineElement;
@@ -117,6 +127,9 @@ declare namespace LocalJSX {
         "appearance"?: string;
     }
     interface KronBox {
+        "appearance"?: string;
+    }
+    interface KronButton {
         "appearance"?: string;
     }
     interface KronFigure {
@@ -136,7 +149,7 @@ declare namespace LocalJSX {
         "backgroundpicture"?: string;
     }
     interface KronMenu {
-        "appreance"?: string;
+        "appearance"?: string;
         "menu"?: string;
     }
     interface KronNavbar {
@@ -161,6 +174,7 @@ declare namespace LocalJSX {
     interface IntrinsicElements {
         "kron-article": KronArticle;
         "kron-box": KronBox;
+        "kron-button": KronButton;
         "kron-figure": KronFigure;
         "kron-form": KronForm;
         "kron-headline": KronHeadline;
@@ -175,6 +189,7 @@ declare module "@stencil/core" {
         interface IntrinsicElements {
             "kron-article": LocalJSX.KronArticle & JSXBase.HTMLAttributes<HTMLKronArticleElement>;
             "kron-box": LocalJSX.KronBox & JSXBase.HTMLAttributes<HTMLKronBoxElement>;
+            "kron-button": LocalJSX.KronButton & JSXBase.HTMLAttributes<HTMLKronButtonElement>;
             "kron-figure": LocalJSX.KronFigure & JSXBase.HTMLAttributes<HTMLKronFigureElement>;
             "kron-form": LocalJSX.KronForm & JSXBase.HTMLAttributes<HTMLKronFormElement>;
             "kron-headline": LocalJSX.KronHeadline & JSXBase.HTMLAttributes<HTMLKronHeadlineElement>;

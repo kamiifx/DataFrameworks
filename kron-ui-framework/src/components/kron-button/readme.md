@@ -1,4 +1,4 @@
-# kron-menu
+# kron-button
 
 
 
@@ -10,7 +10,6 @@
 | Property     | Attribute    | Description | Type     | Default     |
 | ------------ | ------------ | ----------- | -------- | ----------- |
 | `appearance` | `appearance` |             | `string` | `undefined` |
-| `menu`       | `menu`       |             | `string` | `undefined` |
 
 
 ----------------------------------------------

@@ -9,23 +9,46 @@
     <script nomodule src="/build/kron-ui.js"></script>
   </head>
   <body>
-    <main>
-    <!--<kron-article appearance="textCenter large">
-        <h2>Introdruction</h2>
-        <p>this is a test</p>
-      </kron-article>
-     -->
-      <kron-figure appearance="textcenter" appearance-Fig="textcenter" appearance-Image="radius-10 size-50" img="https://imgcomfort.com/Userfiles/Upload/images/illustration-geiranger.jpg" text="this is a picture">
-      </kron-figure>
-       <!-- 
-      <kron-form appearance="Large serif " image="true">
-        <div slot="start">
-        <kron-figure slot="img" appearance="center">
-      </kron-figure>
-    </div>
-        <h2>registrer bruker</h2>
-      
-        <input type="text" name="fornavn" placeholder="  Fornavn" required/>
+ <kron-headline appereance="headliner center bccolor-b1" backgroundpicture="https://www.adressa.no/incoming/article1214418.ece5/BINARY/w780/Film%20shrek">
+      <h1> NRK Side</h1>
+    </kron-headline>
+
+
+    <!-- Properties for kron-navbar:
+          property: ultag="classname"
+
+           attributes/classes:
+           "navbar vertical"
+           "navbar horisontal"
+            To add a color write the name of the color and then add how strong
+            you want the color to be 1 being weakest 10 being strongest
+           Example shown below
+    -->
+   <kron-navbar appereance="blue2 hover-p9"  navlogo="TESTLOGO" contactlogo="NRk super" >
+
+  <a href=""> Home </a>
+  <a href=""> Settings </a>
+  <a href=""> Pixels </a>
+ <a href=""> JustaLongsentence </a>
+ <a href=""> Short </a>
+  <a href=""> test</a>
+</kron-navbar>
+
+      <!-- Properties for kron-box
+      property: "displaymode"
+
+       attributes:
+        "flex-row-wrap"
+        "flex-column-wrap"
+         To add a color write the name of the color and then add how strong
+           you want the color to be 1 being weakest 10 being strongest
+
+           To target background color of your wanted component type backcolor-(b1-b10)
+           for blue strenght 1 to 10
+
+        Example shown below
+      -->
+ <kron-box displaymode="flex-row-wrap backcolor-b7">
 
   <div> This</div>
   <div> is </div>
@@ -43,8 +66,6 @@
   <div> as  </div>
   <div>this one </div>
 
-      </kron-form> -->
-
-    </main>
+</kron-box>
   </body>
 </html>

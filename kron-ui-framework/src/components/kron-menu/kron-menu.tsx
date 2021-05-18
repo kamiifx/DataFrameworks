@@ -7,15 +7,12 @@ import { Component, h, Prop } from '@stencil/core';
 })
 export class KronMenu {
   @Prop() menu :string;
-  @Prop() appreance:string;
+  @Prop() appearance:string;
 
   render() {
     return (
-      <div class={`container ${this.appreance}`}>
-        <div class="header">
-          <h3>{this.menu}</h3>
-          <span>&#128772;</span>
-        </div>
+      <div class={`container ${this.appearance}`}>
+          <h3 class="menu">{this.menu}</h3>
         <div class="items">
           <slot>
           </slot>
