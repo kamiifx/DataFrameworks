@@ -9,9 +9,8 @@
 
 | Property      | Attribute     | Description | Type     | Default     |
 | ------------- | ------------- | ----------- | -------- | ----------- |
-| `appereance`  | `appereance`  |             | `string` | `undefined` |
+| `appearance`  | `appearance`  |             | `string` | `undefined` |
 | `contactlogo` | `contactlogo` |             | `string` | `undefined` |
-| `kronlayout`  | `kronlayout`  |             | `string` | `undefined` |
 | `navlogo`     | `navlogo`     |             | `string` | `undefined` |
 
 

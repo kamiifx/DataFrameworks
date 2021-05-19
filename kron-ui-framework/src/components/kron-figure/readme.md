@@ -7,23 +7,15 @@
 
 ## Properties
 
-| Property     | Attribute    | Description | Type     | Default     |
-| ------------ | ------------ | ----------- | -------- | ----------- |
-| `appearance` | `appearance` |             | `string` | `undefined` |
+| Property          | Attribute          | Description | Type     | Default     |
+| ----------------- | ------------------ | ----------- | -------- | ----------- |
+| `alt`             | `alt`              |             | `string` | `undefined` |
+| `appearance`      | `appearance`       |             | `string` | `undefined` |
+| `appearanceFig`   | `appearance-fig`   |             | `string` | `undefined` |
+| `appearanceImage` | `appearance-image` |             | `string` | `undefined` |
+| `img`             | `img`              |             | `string` | `undefined` |
+| `text`            | `text`             |             | `string` | `undefined` |
 
-
-## Dependencies
-
-### Used by
-
- - [kron-form](../kron-form)
-
-### Graph
-```mermaid
-graph TD;
-  kron-form --> kron-figure
-  style kron-figure fill:#f9f,stroke:#333,stroke-width:4px
-```
 
 ----------------------------------------------
 

@@ -7,9 +7,9 @@
 
 ## Properties
 
-| Property      | Attribute     | Description | Type     | Default     |
-| ------------- | ------------- | ----------- | -------- | ----------- |
-| `displaymode` | `displaymode` |             | `string` | `undefined` |
+| Property     | Attribute    | Description | Type     | Default     |
+| ------------ | ------------ | ----------- | -------- | ----------- |
+| `appearance` | `appearance` |             | `string` | `undefined` |
 
 
 ----------------------------------------------
