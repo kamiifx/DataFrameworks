@@ -13,16 +13,15 @@ export class KronNavbar {
 
   render() {
     return (
-      <div class={`nav ${this.appearance}`}> 
+      <div class={`nav ${this.appearance}`}>
        <h2 class="logotitle"> {this.navlogo} </h2>
         <div class="items">
           <slot>
-      
           </slot>
        </div>
        <h3 class="contact"> {this.contactlogo} </h3>
       </div>
-     
+
     );
   }
 

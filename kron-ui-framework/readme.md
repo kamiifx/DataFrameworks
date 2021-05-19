@@ -33,10 +33,13 @@ yarn init
 
 After initialization, install Kron-UI as shown in the installation above.
 And you can starting importing Kron-UI by refrencing to it with the script tag :
+
 ```html  
 <script src="node_modules/kron-ui/dist/kron-ui/kron-ui.js"></script> 
 ```
+
 Your ``` <head> ``` should look like this:
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -51,20 +54,26 @@ Thats it! You have Kron UI setup in your project.
 
 
 #### React Setup
+
 Coming soon-
 
 
 ### Components & Properties
+
 All components uses the ```appearance``` attribute for their styles, and some have component specific attributes
 that is documentet for each component below. 
-####Colors
+
+#### Colors
+
 Colors are used within the ```appearance``` property as well as for color intensity, example:
 ```html
 <kron-componenttype appearance='blue4'></kron-componenttype>
 ```
 ``` blue ``` is the color and ```4``` is the intensity of the color blue. Put togheter we get ```blue4```.
 All the colors have an intensity from 1 to 10.
-#####Colors Available
+
+##### Colors Available
+
 - Red
 - Blue
 - Green
