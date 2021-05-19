@@ -98,13 +98,32 @@ All the colors have an intensity from 1 to 10.
 
 #### Navbar
 ```html
-<kron-navbar> 
-    <a href="#"> Home</a>
+<kron-navbar appearance ="blue5 hover-b8" contactlogo="Contact us!" navlogo="Testpage"> 
+    <a href="#"> Home </a>
+    <a href="#"> Page 2 </a>
 </kron-navbar>
 ```
-| appearance | navlogo | contactlogo | 
-| ------ |     ----- |     ---- | 
-| color  |     ----- |     ---- | 
-------   |     ----  |     ---- |
-------   |     ----- |     ---- |
+Attributes for kron-navbar
+| appearance | navlogo     | contactlogo | 
+| ------     |     -----   |     ----    | 
+| color      |     String  |     String  | 
+| hover-     |             |             |
 
+![Navbar](https://gyazo.com/924494b63778ae25cc7817796ef460d7.png) 
+
+#### Box
+```html
+  <kron-box appearance="flex-row-wrap"> 
+      <div> 1</div>
+      <div> 2</div>
+  </kron-box>
+```
+Attributes for kron-box
+| appearance         | 
+| ------             |    
+| color              |    
+| hover-             |  
+| flex-row-wrap      |    
+| flex-column-wrap   |  
+
+![box](https://gyazo.com/56b5d1a9eb6e09a989e6bac03b17a1c9.png)
