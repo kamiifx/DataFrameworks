@@ -95,3 +95,16 @@ All the colors have an intensity from 1 to 10.
 
 
 
+
+#### Navbar
+```html
+<kron-navbar> 
+    <a href="#"> Home</a>
+</kron-navbar>
+```
+| appearance | navlogo | contactlogo | 
+| ------ |     ----- |     ---- | 
+| color  |     ----- |     ---- | 
+------   |     ----  |     ---- |
+------   |     ----- |     ---- |
+
