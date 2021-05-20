@@ -236,7 +236,7 @@ Properties `kron-article`
 | small = font-size        | small font size                   |
 
 ```html
-<kron-article appearance="large serif center ">
+<kron-article appearance="large serif center red1">
   <h2>header</h2>
   <p>lorum ipsom</p>
 </kron-article>
@@ -248,7 +248,7 @@ Properties `kron-article`
 <kron-figure></kron-figure>
 ```
 
-![Figure](https://i.gyazo.com/849f4f870c1deeda0932ba08487890b6.png)
+![Figure](https://i.gyazo.com/80ab3d798d1159eb3fde815d38139480.png)
 
 Properties `kron-figure`
 | properties | attributes |
