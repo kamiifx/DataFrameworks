@@ -91,10 +91,27 @@ All the colors have an intensity from 1 to 10.
 #### Button
 
 ```html
-<kron-button>Im a button!<kron-button></kron-button></kron-button>
+<kron-button>Im a button!<kron-button>
 ```
 
 ![Button](https://i.gyazo.com/d940454f2366b333f2e4fe99ccabdf8f.png)
+
+Properties ``` kron-button ```
+| properties | attributes                      |
+| ---------- | ------------------------------- |
+| appearance | color,b-color,h-color,bg-none   |
+
+|attributes               | examples                                        |
+| ----------------------- | ----------------------------------------------- |
+|color = background color | blue10 : color + intensity(1-10)                |
+|b-color = border color   | b-blue10 : b-color + intensity(1-10)            |
+|h-color = hover color    | h-blue10 : b-color + intensity(1-10)            |
+|bg-none = no border      | bg-none                                         |
+```html
+Example usage
+
+```
+              
 
 #### Navbar
 
