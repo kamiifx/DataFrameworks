@@ -190,6 +190,25 @@ Attributes for kron-box
 | flex-column-wrap        |    horisontally placing the divs                         |
 
 
+```html
+Example usage
+ <kron-box appearance="flex-row-wrap blue1 hover-y10">
+  <div> This</div>
+  <div> is </div>
+  <div> the same </div>
+  <div> Component</div>
+</kron-box>
+
+<kron-box appearance="flex-column-wrap blue10 hover-r10">
+  <div> as</div>
+ <div>this one </div>
+ 
+```
+![box](https://i.gyazo.com/59d9649e0ded2a85fcfca70613b7a934.png)
+
+
+
+
 #### Article
 
 ```html
