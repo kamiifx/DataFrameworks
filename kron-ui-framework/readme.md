@@ -91,29 +91,28 @@ All the colors have an intensity from 1 to 10.
 #### Button
 
 ```html
-<kron-button>Im a button!<kron-button>
+<kron-button>Im a button!<kron-button></kron-button></kron-button>
 ```
 
 ![Button](https://i.gyazo.com/d940454f2366b333f2e4fe99ccabdf8f.png)
 
-Properties ``` kron-button ```
-| properties | attributes                      |
+Properties `kron-button`
+| properties | attributes |
 | ---------- | ------------------------------- |
-| appearance | color,b-color,h-color,bg-none   |
+| appearance | color,b-color,h-color,bg-none |
 
-|attributes               | examples                                        |
-| ----------------------- | ----------------------------------------------- |
-|color = background color | blue10 : color + intensity(1-10)                |
-|b-color = border color   | b-blue10 : b-color + intensity(1-10)            |
-|h-color = hover color    | h-blue10 : b-color + intensity(1-10)            |
-|bg-none = no border      | bg-none                                         |
+| attributes               | examples                             |
+| ------------------------ | ------------------------------------ |
+| color = background color | blue10 : color + intensity(1-10)     |
+| b-color = border color   | b-blue10 : b-color + intensity(1-10) |
+| h-color = hover color    | h-blue10 : b-color + intensity(1-10) |
+| bg-none = no border      | bg-none                              |
 
 ```html
 Example usage
-<kron-button appearance='blue7 b-blue3 h-green3'>Styled Button!</kron-button>
-<kron-button appearance='bg-none'>Styled Button!</kron-button>
+<kron-button appearance="blue7 b-blue3 h-green3">Styled Button!</kron-button>
+<kron-button appearance="bg-none">Styled Button!</kron-button>
 ```
-              
 
 #### Navbar
 
@@ -151,7 +150,31 @@ Attributes for kron-box
 
 ![box](https://gyazo.com/56b5d1a9eb6e09a989e6bac03b17a1c9.png)
 
-#### article
+#### Article
+
+```html
+<kron-article>
+  <h2>header<h2>
+  <p> lorum ispom</p>
+</kron-article>
+```
+
+![Article](https://i.gyazo.com/58eb8b6e647399d8018ad37904a0a6f7.png)
+
+Properties `kron-article`
+| properties | attributes |
+| ---------- | ------------------------------- |
+| appearance | serif, sans-serif, monospace, fantasy, large, medium, small, right, center, left|
+
+| attributes               | examples                          |
+| ------------------------ | --------------------------------- |
+| serif = font-family      | Times New Roman + Times + serif   |
+| sans-serif = font-family | Arial + Helvetica + sans-serif    |
+| monospace = font-family  | Courier New + Courier + monospace |
+| fantasy = font-family    | Copperplate + Papyrus             |
+| large = font-size        | big font size                     |
+| medium = font-size       | medium font size                  |
+| small = font-size        | small font size                   |
 
 ```html
 <kron-article appearance="large serif center ">
@@ -160,17 +183,34 @@ Attributes for kron-box
 </kron-article>
 ```
 
-Attributes for kron-article
-| property appearance | property ability |
-| --------- | --------------- |
-| fontsize | large medium small |  
-| fontstyle | serif sans-serif monospace fantasy |
-| placement website | right left center |
-| placcement artice | text.Right text.Left text.Center |
+#### Figure
 
-![article](https://i.gyazo.com/58eb8b6e647399d8018ad37904a0a6f7.png)
+```html
+<kron-figure></kron-figure>
+```
 
-#### figure
+![Figure](https://i.gyazo.com/849f4f870c1deeda0932ba08487890b6.png)
+
+Properties `kron-figure`
+| properties | attributes |
+| ---------- | ------------------------------- |
+| appearance | serif, sans-serif, monospace, fantasy right, center, left |
+| appearance-Image | radius, size |
+| img| src: enters image address |
+| alt| string value if image doesnt show |
+| appearance-Fig |string value for figcaption output |
+
+| attributes                 | examples                                                      |
+| -------------------------- | ------------------------------------------------------------- |
+| serif = font-family        | Times New Roman + Times + serif                               |
+| sans-serif = font-family   | Arial + Helvetica + sans-serif                                |
+| monospace = font-family    | Courier New + Courier + monospace                             |
+| fantasy = font-family      | Copperplate + Papyrus                                         |
+| radius = radius size image | radius-size10: radius intensity increasing 10 each time to 60 |
+| size = size image          | size increasing 10 each time to 60                            |
+| large = font-size          | big font size                                                 |
+| medium = font-size         | medium font size                                              |
+| small = font-size          | small font size                                               |
 
 ```html
 <kron-figure
@@ -183,20 +223,32 @@ Attributes for kron-article
 </kron-figure>
 ```
 
-| property appearance | property ability                 | property appearance-Image | property ability             |
-| ------------------- | -------------------------------- | ------------------------- | ---------------------------- |
-| placement website   | right left center                | radius img                | from radius-10 to readius-60 |
-| placcement figure   | text.Right text.Left text.Center | img size                  | from size-10 to size-60      |
+#### Form
 
-| property decorator for image | property ability                   |
-| ---------------------------- | ---------------------------------- |
-| img address                  | string value coping from website   |
-| alternativ for image         | string value if image doesnt show  |
-| text for figcaption          | string value for figcaption output |
+```html
+<kron-form></kron-form>
+```
 
-![figure](https://i.gyazo.com/849f4f870c1deeda0932ba08487890b6.png)
+![Form](https://i.gyazo.com/d084212360eaa64c97d44f46a7683826.png)
 
-#### form
+Properties `kron-form`
+| properties | attributes |
+| ---------- | ------------------------------- |
+| appearance | serif, sans-serif, monospace, fantasy right, center, left |
+| image |true, false |
+
+| attributes                            | examples                                                      |
+| ------------------------------------- | ------------------------------------------------------------- |
+| serif = font-family                   | Times New Roman + Times + serif                               |
+| sans-serif = font-family              | Arial + Helvetica + sans-serif                                |
+| monospace = font-family               | Courier New + Courier + monospace                             |
+| fantasy = font-family                 | Copperplate + Papyrus                                         |
+| radius = radius size image            | radius-size10: radius intensity increasing 10 each time to 60 |
+| size = size image                     | size increasing 10 each time to 60                            |
+| large = font-size                     | big font size                                                 |
+| medium = font-size                    | medium font size                                              |
+| small = font-size                     | small font size                                               |
+| placement website = center left right | floating center, floating left, floating right                |
 
 ```html
 <kron-form appearance="large serif center" image="true">
@@ -208,13 +260,3 @@ Attributes for kron-article
   <button>knapp</button>
 </kron-form>
 ```
-
-Attributes for kron-form
-| property appearance | property ability |
-| --------- | --------------- |
-| fontsize | large medium small |
-| fontstyle | serif sans-serif monospace fantasy |
-| placement website | right left center |
-| placcement artice | text.Right text.Left text.Center |
-
-![form](https://i.gyazo.com/d084212360eaa64c97d44f46a7683826.png)
