@@ -112,7 +112,7 @@ Example usage
     <a href='=desc'>Descending Order</a>
   <kron-menu>
 ```
-![Menu](https://i.gyazo.com/a2adc5c1aa3c1949f7d696d714a9fe1c.png)
+![Menu](https://i.gyazo.com/fb589532486ad1429d337e9c1d78af48.png)
 
 Properties ``` kron-menu ```
 | properties | attributes                                             |
