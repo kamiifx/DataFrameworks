@@ -118,10 +118,7 @@ Example usage
 #### Navbar
 
 ```html
-<kron-navbar appearance="blue5 hover-b8" contactlogo="Contact us!" navlogo="Testpage">
-  <a href="#"> Home </a>
-  <a href="#"> Page 2 </a>
-</kron-navbar>
+<kron-navbar> </kron-navbar>
 ```
 
 Properties ``` kron-navbar ```
@@ -136,7 +133,13 @@ Properties ``` kron-navbar ```
 |color = background color | blue10 : color + intensity(1-10)                |
 |hover-c = hover color    | hover-b10 : hover color + intensity(1-10)           |
 
-
+```html
+Example usage
+<kron-navbar appearance="blue5 hover-b8" contactlogo="Contact us!" navlogo="Testpage">
+  <a href="#"> Home </a>
+  <a href="#"> Page 2 </a>
+</kron-navbar>
+```
 ![Navbar](https://gyazo.com/924494b63778ae25cc7817796ef460d7.png)
 
 #### Box
