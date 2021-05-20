@@ -218,7 +218,7 @@ Example usage
 </kron-article>
 ```
 
-![Article](https://i.gyazo.com/58eb8b6e647399d8018ad37904a0a6f7.png)
+![Article](https://i.gyazo.com/80ab3d798d1159eb3fde815d38139480.png)
 
 Properties `kron-article`
 | properties | attributes |
@@ -248,7 +248,7 @@ Properties `kron-article`
 <kron-figure></kron-figure>
 ```
 
-![Figure](https://i.gyazo.com/80ab3d798d1159eb3fde815d38139480.png)
+![Figure](https://i.gyazo.com/db6564e1dbb1dffd91c08f605adb82f6.jpg)
 
 Properties `kron-figure`
 | properties | attributes |
