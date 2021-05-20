@@ -124,11 +124,16 @@ Example usage
 </kron-navbar>
 ```
 
-Attributes for kron-navbar
-| appearance | navlogo | contactlogo |
-| ------ | ----- | ---- |
-| color | String | String |
-| hover- | | |
+Properties ``` kron-navbar ```
+| properties | attributes                      |
+| ---------- | ------------------------------- |
+| appearance | color,hover-c,|
+
+|attributes               | examples                                        |
+| ----------------------- | ----------------------------------------------- |
+|color = background color | blue10 : color + intensity(1-10)                |
+|hover-c = hover color    | hover-b10 : hover color + intensity(1-10)           |
+
 
 ![Navbar](https://gyazo.com/924494b63778ae25cc7817796ef460d7.png)
 
