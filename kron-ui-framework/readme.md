@@ -127,7 +127,9 @@ Example usage
 Properties ``` kron-navbar ```
 | properties | attributes                      |
 | ---------- | ------------------------------- |
-| appearance | color,hover-c,|
+| appearance | color,hover-c,                  |
+| navlogo    | "Text"                          |
+| contactlogo| "Text"                          |
 
 |attributes               | examples                                        |
 | ----------------------- | ----------------------------------------------- |
