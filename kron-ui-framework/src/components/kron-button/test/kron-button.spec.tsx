@@ -1,18 +1,18 @@
 import { newSpecPage } from '@stencil/core/testing';
-import { KronSection } from '../kron-section';
+import { KronButton } from '../kron-button';
 
-describe('kron-section', () => {
+describe('kron-button', () => {
   it('renders', async () => {
     const page = await newSpecPage({
-      components: [KronSection],
-      html: `<kron-section></kron-section>`,
+      components: [KronButton],
+      html: `<kron-button></kron-button>`,
     });
     expect(page.root).toEqualHtml(`
-      <kron-section>
+      <kron-button>
         <mock:shadow-root>
           <slot></slot>
         </mock:shadow-root>
-      </kron-section>
+      </kron-button>
     `);
   });
 });

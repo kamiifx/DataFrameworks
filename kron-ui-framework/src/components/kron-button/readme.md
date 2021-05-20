@@ -1,4 +1,4 @@
-# kron-section
+# kron-button
 
 
 
@@ -10,7 +10,6 @@
 | Property     | Attribute    | Description | Type     | Default     |
 | ------------ | ------------ | ----------- | -------- | ----------- |
 | `appearance` | `appearance` |             | `string` | `undefined` |
-| `text`       | `text`       |             | `string` | `undefined` |
 
 
 ----------------------------------------------

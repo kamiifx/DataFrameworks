@@ -1,9 +1,6 @@
 :host {
   display: block;
 }
-.article {
-  margin: 0;
-}
 
 .serif{
   font-family:'Times New Roman', Times, serif
@@ -18,13 +15,16 @@
   font-family: 'Copperplate', 'Papyrus';
 }
 
-.fontLarge{
+.large{
   font-size: medium;
 }
-.fontLarge:hover{
+
+.medium{
   font-size: medium;
-  text-align: center;
-  text-decoration: underline;
+}
+
+.small{
+  font-size: small;
 }
 
 .right{
@@ -34,25 +34,12 @@
 .left{
   float: left;
 }
+
 .center{
   margin-left: 50%;
   margin-right: 50%;
 }
 
-.fontMedium{
-  font-size: medium;
-}
-.fontMedium:hover{
-  font-size: medium;
-  text-decoration: underline;
-}
-.fontSmall{
-  font-size: small;
-}
-.fontSmall:hover{
-  font-size: small;
-  text-decoration: underline;
-}
 .textRight{
   text-align: right;
 }

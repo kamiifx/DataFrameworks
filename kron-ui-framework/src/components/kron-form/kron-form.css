@@ -17,27 +17,6 @@ form {
   box-shadow: 0px 0px 35px -10px rgba(0, 0, 0, 0.2);
 }
 
-.header {
-  width: 500px;
-  height: 125px;
-  background: linear-gradient(90deg, rgba(121, 9, 109, 1) 31%, rgba(0, 212, 255, 1) 100%);
-}
-
-.header img {
-  object-fit: cover;
-  border-radius: 5%;
-}
-
-fieldset {
-  margin: 2em 1em;
-  border: none;
-  border-radius: 6%;
-  padding: 1em 2em;
-}
-
-form ::slotted(h2) {
-  font-size: large;
-}
 
 form ::slotted(label) {
   margin-top: 1em;
@@ -50,6 +29,7 @@ form ::slotted(input) {
   width: 290px;
   height: 54px;
   border-radius: 2px;
+  text-align: center;
   border: 1px solid var(--gr-1);
 }
 
@@ -66,10 +46,25 @@ form ::slotted(button) {
   box-shadow: 10px 10px 25px -4px rgba(0, 0, 0, 0.12);
 }
 
-label {
-  display: block;
-  margin-top: 1em;
+.header {
+  width: 500px;
+  height: 125px;
+  text-align: center;
+  background: linear-gradient(90deg, rgba(121, 9, 109, 1) 31%, rgba(0, 212, 255, 1) 100%);
 }
+
+
+
+.large{
+  font-size: large;
+}
+.medium{
+  font-size: medium;
+}
+.small{
+  font-size: small;
+}
+
 
 .serif {
   font-family: 'Times New Roman', Times, serif;
@@ -91,24 +86,12 @@ label {
 .left {
   float: left;
 }
+
 .center {
   margin-left: 50%;
   margin-right: 50%;
 }
 
-.textcenter {
-  text-align: center;
-  margin-top: 2%;
-}
-.textright {
-  text-align: right;
-  margin-top: 2%;
-}
-
-.textleft {
-  text-align: left;
-  margin-top: 2%;
-}
 
 .red1 {
   background-color: var(--r-1);

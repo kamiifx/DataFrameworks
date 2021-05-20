@@ -7,10 +7,10 @@
 
 ## Properties
 
-| Property    | Attribute   | Description | Type     | Default     |
-| ----------- | ----------- | ----------- | -------- | ----------- |
-| `appreance` | `appreance` |             | `string` | `undefined` |
-| `menu`      | `menu`      |             | `string` | `undefined` |
+| Property     | Attribute    | Description | Type     | Default     |
+| ------------ | ------------ | ----------- | -------- | ----------- |
+| `appearance` | `appearance` |             | `string` | `undefined` |
+| `menu`       | `menu`       |             | `string` | `undefined` |
 
 
 ----------------------------------------------
