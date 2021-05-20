@@ -145,10 +145,7 @@ Example usage
 #### Box
 
 ```html
-<kron-box appearance="flex-row-wrap">
-  <div>1</div>
-  <div>2</div>
-</kron-box>
+<kron-box> </kron-box>
 ```
 Properties ``` kron-box ```
 | properties | attributes                      |
