@@ -105,7 +105,7 @@ Example usage
 ```
 
 #### Menu
-
+*Menu is only activated by hovering for now.*
 ```html
   <kron-menu menu='Sort By'>
     <a href='=asc'>Ascending Order</a>
