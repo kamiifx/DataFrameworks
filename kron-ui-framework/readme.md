@@ -155,56 +155,46 @@ må endres etterpå
 #### figure
 
 ```html
-        <kron-form appearance="large serif center" image="true">
-        <div slot="start">
-          <kron-figure
-            slot="img"
-            appearance="center"
-            img="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg"
-            appearance-Image="size-40 radius-50"
-          />
-        </div>
-        <h2>registrer bruker</h2>
+<kron-figure
+  appearance="center"
+  appearance-Image="size-40"
+  appearance-Fig="figcaption-40"
+  img="https://imgcomfort.com/Userfiles/Upload/images/illustration-geiranger.jpg"
+  text="bilde fra fjell"
+>
+</kron-figure>
+```
 
-        <input type="text" name="fornavn" placeholder="  Fornavn" required />
+| property appearance | property ability                 | property appearance-Image | property ability             |
+| ------------------- | -------------------------------- | ------------------------- | ---------------------------- |
+| placement website   | right left center                | radius img                | from radius-10 to readius-60 |
+| placcement figure   | text.Right text.Left text.Center | img size                  | from size-10 to size-60      |
 
-        <input type="text" name="etternavn" placeholder="  Etternavn" required />
-
-        <input type="email" name="email" placeholder="  Email" required />
-
-        <input type="tel" name="telephone" placeholder="  Phone number" pattern="[0-9] {8}" required />
-
-        <button>knapp</button>
-      </kron-form> ```
-
-Attributes for kron-figure
-
-| property appearance  | property ability                   | property appearance-Image | property ability             |
-| -------------------- | ---------------------------------- | ------------------------- | ---------------------------- |
-| placement website    | right left center                  | radius img                | from radius-10 to readius-60 |
-| placcement figure    | text.Right text.Left text.Center   | img size                  | from size-10 to size-60      |
-| ----------           | -------------------                |
-| property decorator   | property ability                   |
-| ---------            | ---------------                    |
-| img address          | string value coping from website   |
-| alternativ for image | string value if image doesnt show  |
-| text for figcaption  | string value for figcaption output |
+| property decorator for image | property ability                   |
+| ---------------------------- | ---------------------------------- |
+| img address                  | string value coping from website   |
+| alternativ for image         | string value if image doesnt show  |
+| text for figcaption          | string value for figcaption output |
 
 #### form
 
 ```html
-<kron-form appearance="large serif center ">
-  <input />
+<kron-form appearance="large serif center" image="true">
+  <div slot="start">
+    <kron-figure slot="img" appearance="center" img="https://imgcomfort.com/Userfiles/Upload/images/illustration-geiranger.jpg" appearance-Image="size-40 radius-50" />
+  </div>
+  <h2>registrer bruker</h2>
+  <input type="text" name="fornavn" placeholder="  Fornavn" required />
+  <button>knapp</button>
 </kron-form>
 ```
 
 Attributes for kron-form
 | property appearance | property ability |
 | --------- | --------------- |
-| fontsize | large medium small |  
+| fontsize | large medium small |
 | fontstyle | serif sans-serif monospace fantasy |
 | placement website | right left center |
 | placcement artice | text.Right text.Left text.Center |
 
-må endres etterpå
 ![Navbar](https://i.gyazo.com/770f99891fc1efb34ff785f08d834b50.png)
