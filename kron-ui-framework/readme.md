@@ -318,4 +318,3 @@ Properties `kron-form`
   <input type="text" name="fornavn" placeholder="  Fornavn" required />
   <button>knapp</button>
 </kron-form>
-```
