@@ -150,6 +150,10 @@ Example usage
   <div>2</div>
 </kron-box>
 ```
+Properties ``` kron-box ```
+| properties | attributes                      |
+| ---------- | ------------------------------- |
+| appearance | color,hover-c, flex-row-wrap, flex-column-wrap                  |
 
 Attributes for kron-box
 | Attributes | Example    |
@@ -159,6 +163,14 @@ Attributes for kron-box
 | flex-row-wrap           |    vertically placing the divs                           |
 | flex-column-wrap        |    horisontally placing the divs                         |
 
+
+```html
+Example usage
+<kron-box appearance="flex-row-wrap">
+  <div>1</div>
+  <div>2</div>
+</kron-box>
+```
 ![box](https://gyazo.com/56b5d1a9eb6e09a989e6bac03b17a1c9.png)
 
 #### article
