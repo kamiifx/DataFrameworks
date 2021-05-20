@@ -149,12 +149,12 @@ Properties ``` kron-navbar ```
 ```
 
 Attributes for kron-box
-| appearance |
-| ------ |  
-| color |  
-| hover- |  
-| flex-row-wrap |  
-| flex-column-wrap |
+| Attributes | Example    |
+| ------     |                                                          -------      |
+| color = background color|    blue10 : color + intensity(1-10)                      |
+| hover-c = hover color   |    hover-b10 : hover + color + intensity(1-10)           |
+| flex-row-wrap           |    vertically placing the divs                           |
+| flex-column-wrap        |    horisontally placing the divs                         |
 
 ![box](https://gyazo.com/56b5d1a9eb6e09a989e6bac03b17a1c9.png)
 
