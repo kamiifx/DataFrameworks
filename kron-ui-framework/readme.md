@@ -188,4 +188,4 @@ Attributes for kron-form
 | placcement artice | text.Right text.Left text.Center |
 
 må endres etterpå
-![Navbar](https://gyazo.com/924494b63778ae25cc7817796ef460d7.png)
+![Navbar](https://i.gyazo.com/770f99891fc1efb34ff785f08d834b50.png)
