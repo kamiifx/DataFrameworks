@@ -188,12 +188,19 @@ Attributes for kron-box
 
 ```html
 Example usage
-<kron-box appearance="flex-row-wrap">
-  <div>1</div>
-  <div>2</div>
+ <kron-box appearance="flex-row-wrap blue1 hover-y10">
+  <div> This</div>
+  <div> is </div>
+  <div> the same </div>
+  <div> Component</div>
 </kron-box>
+
+<kron-box appearance="flex-column-wrap blue10 hover-r10">
+  <div> as</div>
+ <div>this one </div>
+ 
 ```
-![box](https://gyazo.com/56b5d1a9eb6e09a989e6bac03b17a1c9.png)
+![box](https://i.gyazo.com/59d9649e0ded2a85fcfca70613b7a934.png)
 
 #### article
 
