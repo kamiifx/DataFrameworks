@@ -149,8 +149,7 @@ Attributes for kron-article
 | placement website | right left center |
 | placcement artice | text.Right text.Left text.Center |
 
-må endres etterpå
-![Navbar](https://gyazo.com/924494b63778ae25cc7817796ef460d7.png)
+![article](https://i.gyazo.com/58eb8b6e647399d8018ad37904a0a6f7.png)
 
 #### figure
 
@@ -176,6 +175,8 @@ må endres etterpå
 | alternativ for image         | string value if image doesnt show  |
 | text for figcaption          | string value for figcaption output |
 
+![figure](https://i.gyazo.com/849f4f870c1deeda0932ba08487890b6.png)
+
 #### form
 
 ```html
@@ -197,4 +198,4 @@ Attributes for kron-form
 | placement website | right left center |
 | placcement artice | text.Right text.Left text.Center |
 
-![Navbar](https://i.gyazo.com/770f99891fc1efb34ff785f08d834b50.png)
+![form](https://i.gyazo.com/d084212360eaa64c97d44f46a7683826.png)
