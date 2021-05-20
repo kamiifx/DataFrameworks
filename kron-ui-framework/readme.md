@@ -294,7 +294,7 @@ Properties `kron-form`
 | properties | attributes |
 | ---------- | ------------------------------- |
 | appearance | serif, sans-serif, monospace, fantasy right, center, left |
-| image |true, false |
+| image |true = having picture, false = remove picture |
 
 | attributes                            | examples                                                      |
 | ------------------------------------- | ------------------------------------------------------------- |
