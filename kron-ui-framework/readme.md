@@ -101,9 +101,44 @@ All the colors have an intensity from 1 to 10.
 ```html
 Example usage
 <kron-button appearance='blue7 b-blue3 h-green3'>Styled Button!</kron-button>
-<kron-button appearance='bg-none'>Styled Button!</kron-button>
+<kron-button appearance='bg-none'>Button! Without a border</kron-button>
 ```
-              
+
+#### Menu
+
+```html
+  <kron-menu menu='Sort By'>
+    <a href='=asc'>Ascending Order</a>
+    <a href='=desc'>Descending Order</a>
+  <kron-menu>
+```
+![Menu](https://i.gyazo.com/a2adc5c1aa3c1949f7d696d714a9fe1c.png)
+
+Properties ``` kron-menu ```
+| properties | attributes                                             |
+| ---------- | ------------------------------------------------------ |
+| appearance | color,b-color,h-color,sm,md,lg,font-sm,font-md,font-lg |
+| menu       | "text"                                                 |
+
+|attributes               | examples                                        |
+| ----------------------- | ----------------------------------------------- |
+|color = background color | blue10 : color + intensity(1-10)                |
+|b-color = border color   | b-blue10 : b-color + intensity(1-10)            |
+|h-color = hover color    | h-blue10 : b-color + intensity(1-10)            |
+|sm = small button size   | sm                                              |
+|md = medium button size  | md                                              |
+|lg = large button size   | lg                                              |
+|font-sm = small font size| font-sm                                         |
+|font-md = medium font size | font-md                                       |
+|font-lg = large font size  | font-lg                                       |
+
+```html
+  Example Usage
+  <kron-menu menu='Sort By' appearance='blue3 b-blue5 h-green3 sm font-sm'>
+  <a href='=asc'>Ascending Order</a>
+  <a href='=desc'>Descending Order</a>
+  <kron-menu>
+```
 
 #### Navbar
 
