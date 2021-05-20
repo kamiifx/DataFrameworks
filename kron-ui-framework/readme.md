@@ -155,8 +155,27 @@ må endres etterpå
 #### figure
 
 ```html
-<kron-figure appearance="center text.center" appearance-Image="radius-50 size-30" img="copy img adresse" alt="image" text="image"> </kron-figure>
-```
+        <kron-form appearance="large serif center" image="true">
+        <div slot="start">
+          <kron-figure
+            slot="img"
+            appearance="center"
+            img="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg"
+            appearance-Image="size-40 radius-50"
+          />
+        </div>
+        <h2>registrer bruker</h2>
+
+        <input type="text" name="fornavn" placeholder="  Fornavn" required />
+
+        <input type="text" name="etternavn" placeholder="  Etternavn" required />
+
+        <input type="email" name="email" placeholder="  Email" required />
+
+        <input type="tel" name="telephone" placeholder="  Phone number" pattern="[0-9] {8}" required />
+
+        <button>knapp</button>
+      </kron-form> ```
 
 Attributes for kron-figure
 
