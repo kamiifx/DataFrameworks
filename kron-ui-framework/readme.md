@@ -107,9 +107,11 @@ Properties ``` kron-button ```
 |b-color = border color   | b-blue10 : b-color + intensity(1-10)            |
 |h-color = hover color    | h-blue10 : b-color + intensity(1-10)            |
 |bg-none = no border      | bg-none                                         |
+
 ```html
 Example usage
-
+<kron-button appearance='blue7 b-blue3 h-green3'>Styled Button!</kron-button>
+<kron-button appearance='bg-none'>Styled Button!</kron-button>
 ```
               
 
