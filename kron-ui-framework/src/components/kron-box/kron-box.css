@@ -308,159 +308,159 @@ Brown
 Hovor colors
 */
 /*Red hovering*/
-.hover-r1 ::slotted(a:hover){
+.hover-r1 ::slotted(div:hover){
   border-bottom: 4px solid #FFCCBC;
 }
-.hover-r2 ::slotted(a:hover){
+.hover-r2 ::slotted(div:hover){
   border-bottom: 4px solid #FFAC9C;
 }
-.hover-3 ::slotted(a:hover){
+.hover-3 ::slotted(div:hover){
   border-bottom: 4px solid #FF8C7C;
 }
-.hover-r4 ::slotted(a:hover){
+.hover-r4 ::slotted(div:hover){
   border-bottom: 4px solid #FF7C6C;
 }
-.hover-r5 ::slotted(a:hover){
+.hover-r5 ::slotted(div:hover){
   border-bottom: 4px solid #FF6C5C;
 }
-.hover-r6 ::slotted(a:hover){
+.hover-r6 ::slotted(div:hover){
   border-bottom: 4px solid #F75C4C;
 }
-.hover-r7 ::slotted(a:hover){
+.hover-r7 ::slotted(div:hover){
   border-bottom: 4px solid #E74C3C;
 }
-.hover-r8 ::slotted(a:hover){
+.hover-r8 ::slotted(div:hover){
   border-bottom: 4px solid #D73C2C;
 }
-.hover-r9 ::slotted(a:hover){
+.hover-r9 ::slotted(div:hover){
   border-bottom: 4px solid #C72C1C;
 }
-.hover-r10 ::slotted(a:hover){
+.hover-r10 ::slotted(div:hover){
   border-bottom: 4px solid #B71C0C;
 }
 /*Blue Hovering*/
-.hover-b1 ::slotted(a:hover){
+.hover-b1 ::slotted(div:hover){
   border-bottom: 4px solid #39d5ff;
 }
-.hover-b2 ::slotted(a:hover){
+.hover-b2 ::slotted(div:hover){
   border-bottom: 4px solid #29c5ff;
 }
-.hover-b3 ::slotted(a:hover){
+.hover-b3 ::slotted(div:hover){
   border-bottom: 4px solid #19B5FE;
 }
-.hover-b4 ::slotted(a:hover){
+.hover-b4 ::slotted(div:hover){
   border-bottom: 4px solid #22A7F0;
 }
-.hover-b5 ::slotted(a:hover){
+.hover-b5 ::slotted(div:hover){
   border-bottom: 4px solid #1297e0;
 }
-.hover-b6 ::slotted(a:hover){
+.hover-b6 ::slotted(div:hover){
   border-bottom: 4px solid #0287d0;
 }
-.hover-b7 ::slotted(a:hover){
+.hover-b7 ::slotted(div:hover){
   border-bottom: 4px solid #0077c0;
 }
-.hover-b8 ::slotted(a:hover){
+.hover-b8 ::slotted(div:hover){
   border-bottom: 4px solid #0067b0;
 }
-.hover-b9 ::slotted(a:hover){
+.hover-b9 ::slotted(div:hover){
   border-bottom: 4px solid #0057a0;
 }
-.hover-b10 ::slotted(a:hover){
+.hover-b10 ::slotted(div:hover){
   border-bottom: 4px solid #004790;
 }
 
 /*Grey Hovering*/
-.hover-gr1 ::slotted(a:hover){
+.hover-gr1 ::slotted(div:hover){
   border-bottom: 4px solid #e0e0e0;
 }
-.hover-gr2 ::slotted(a:hover){
+.hover-gr2 ::slotted(div:hover){
   border-bottom: 4px solid #d0d0d0;
 }
-.hover-gr3 ::slotted(a:hover){
+.hover-gr3 ::slotted(div:hover){
   border-bottom: 4px solid #c0c0c0;
 }
-.hover-gr4 ::slotted(a:hover){
+.hover-gr4 ::slotted(div:hover){
   border-bottom: 4px solid #a0a0a0;
 }
-.hover-gr5 ::slotted(a:hover){
+.hover-gr5 ::slotted(div:hover){
   border-bottom: 4px solid #909090;
 }
-.hover-gr6 ::slotted(a:hover){
+.hover-gr6 ::slotted(div:hover){
   border-bottom: 4px solid #808080;
 }
-.hover-gr7 ::slotted(a:hover){
+.hover-gr7 ::slotted(div:hover){
   border-bottom: 4px solid #707070;
 }
-.hover-gr8 ::slotted(a:hover){
+.hover-gr8 ::slotted(div:hover){
   border-bottom: 4px solid #606060;
 }
-.hover-gr9 ::slotted(a:hover){
+.hover-gr9 ::slotted(div:hover){
   border-bottom: 4px solid #505050;
 }
-.hover-gr10 ::slotted(a:hover){
+.hover-gr10 ::slotted(div:hover){
   border-bottom: 4px solid #404040;
 }
 /*Gray hovering*/
-.hover-ge1 ::slotted(a:hover){
+.hover-ge1 ::slotted(div:hover){
   border-bottom: 4px solid #c5d3e2;
 }
-.hover-ge2 ::slotted(a:hover){
+.hover-ge2 ::slotted(div:hover){
   border-bottom: 4px solid #bccad9;
 }
-.hover-ge3 ::slotted(a:hover){
+.hover-ge3 ::slotted(div:hover){
   border-bottom: 4px solid #acbac9;
 }
-.hover-ge4 ::slotted(a:hover){
+.hover-ge4 ::slotted(div:hover){
   border-bottom: 4px solid #9caab9;
 }
-.hover-ge5 ::slotted(a:hover){
+.hover-ge5 ::slotted(div:hover){
   border-bottom: 4px solid #8c9aa9;
 }
-.hover-ge6 ::slotted(a:hover){
+.hover-ge6 ::slotted(div:hover){
   border-bottom: 4px solid #7c8a99;
 }
-.hover-ge7 ::slotted(a:hover){
+.hover-ge7 ::slotted(div:hover){
   border-bottom: 4px solid #6C7A89;
 }
-.hover-ge8 ::slotted(a:hover){
+.hover-ge8 ::slotted(div:hover){
   border-bottom: 4px solid #5c6a79;
 }
-.hover-ge9 ::slotted(a:hover){
+.hover-ge9 ::slotted(div:hover){
   border-bottom: 4px solid #4c5a69;
 }
-.hover-ge10 ::slotted(a:hover){
+.hover-ge10 ::slotted(div:hover){
   border-bottom: 4px solid #3c4a59;
 }
 /*Yellow hovering*/
-.hover-y1 ::slotted(a:hover){
+.hover-y1 ::slotted(div:hover){
   border-bottom: 4px solid #FDE3A7;
 }
-.hover-y2 ::slotted(a:hover){
+.hover-y2 ::slotted(div:hover){
   border-bottom: 4px solid #ffcf4b;
 }
-.hover-y3 ::slotted(a:hover){
+.hover-y3 ::slotted(div:hover){
   border-bottom: 4px solid #F9BF3B;
 }
-.hover-y4 ::slotted(a:hover){
+.hover-y4 ::slotted(div:hover){
   border-bottom: 4px solid #f9b32f;
 }
-.hover-y5 ::slotted(a:hover){
+.hover-y5 ::slotted(div:hover){
   border-bottom: 4px solid #F5AB35;
 }
-.hover-y6 ::slotted(a:hover){
+.hover-y6 ::slotted(div:hover){
   border-bottom: 4px solid #F39C12;
 }
-.hover-y7 ::slotted(a:hover){
+.hover-y7 ::slotted(div:hover){
   border-bottom: 4px solid #f1892d;
 }
-.hover-y8 ::slotted(a:hover){
+.hover-y8 ::slotted(div:hover){
   border-bottom: 4px solid #e67e22;
 }
-.hover-y9 ::slotted(a:hover){
+.hover-y9 ::slotted(div:hover){
   border-bottom: 4px solid #d87400;
 }
-.hover-y10 ::slotted(a:hover){
+.hover-y10 ::slotted(div:hover){
   border-bottom: 4px solid #c86100;
 }
 
@@ -469,98 +469,98 @@ Hovor colors
 
 
 /*Pink Hovering*/
-.hover-p1 ::slotted(a:hover){
+.hover-p1 ::slotted(div:hover){
   border-bottom: 4px solid #8effc1;
 }
-.hover-p2 ::slotted(a:hover){
+.hover-p2 ::slotted(div:hover){
   border-bottom: 4px solid #5efca1;
 }
-.hover-p3 ::slotted(a:hover){
+.hover-p3 ::slotted(div:hover){
   border-bottom: 4px solid #4eec91;
 }
-.hover-p4 ::slotted(a:hover){
+.hover-p4 ::slotted(div:hover){
   border-bottom: 4px solid #3edc81;
 }
-.hover-p5 ::slotted(a:hover){
+.hover-p5 ::slotted(div:hover){
   border-bottom: 4px solid #2ecc71;
 }
-.hover-p6 ::slotted(a:hover){
+.hover-p6 ::slotted(div:hover){
   border-bottom: 4px solid #1ebc61;
 }
-.hover-p7 ::slotted(a:hover){
+.hover-p7 ::slotted(div:hover){
   border-bottom: 4px solid #0eac51;
 }
-.hover-p8 ::slotted(a:hover){
+.hover-p8 ::slotted(div:hover){
   border-bottom: 4px solid #009c41;
 }
-.hover-p9 ::slotted(a:hover){
+.hover-p9 ::slotted(div:hover){
   border-bottom: 4px solid #008c31;
 }
-.hover-p10 ::slotted(a:hover){
+.hover-p10 ::slotted(div:hover){
   border-bottom: 4px solid #007c21;
 }
 
 /*Green hovering*/
-.hover-g1 ::slotted(a:hover){
+.hover-g1 ::slotted(div:hover){
   border-bottom: 4px solid #FFBCD8;
 }
-.hover-g2 ::slotted(a:hover){
+.hover-g2 ::slotted(div:hover){
   border-bottom: 4px solid #FF8CC8;
 }
-.hover-g3 ::slotted(a:hover){
+.hover-g3 ::slotted(div:hover){
   border-bottom: 4px solid #FF7CB8;
 }
-.hover-g4 ::slotted(a:hover){
+.hover-g4 ::slotted(div:hover){
   border-bottom: 4px solid #FF6CA8;
 }
-.hover-g5 ::slotted(a:hover){
+.hover-g5 ::slotted(div:hover){
   border-bottom: 4px solid #FA5C98;
 }
-.hover-g6 ::slotted(a:hover){
+.hover-g6 ::slotted(div:hover){
   border-bottom: 4px solid #DA3C78;
 }
-.hover-g7 ::slotted(a:hover){
+.hover-g7 ::slotted(div:hover){
   border-bottom: 4px solid #CA2C68;
 }
-.hover-g8 ::slotted(a:hover){
+.hover-g8 ::slotted(div:hover){
   border-bottom: 4px solid #BA1C58;
 }
-.hover-g9 ::slotted(a:hover){
+.hover-g9 ::slotted(div:hover){
   border-bottom: 4px solid #BA1C58;
 }
-.hover-g10 ::slotted(a:hover){
+.hover-g10 ::slotted(div:hover){
   border-bottom: 4px solid #9A0038;
 }
 
 /*Bron hovering*/
-.hover-br1 ::slotted(a:hover){
+.hover-br1 ::slotted(div:hover){
   border-bottom: 4px solid #F6C4A3;
 }
-.hover-br2 ::slotted(a:hover){
+.hover-br2 ::slotted(div:hover){
   border-bottom: 4px solid #EAB897;
 }
-.hover-br3 ::slotted(a:hover){
+.hover-br3 ::slotted(div:hover){
   border-bottom: 4px solid #DFAD8C;
 }
-.hover-br4 ::slotted(a:hover){
+.hover-br4 ::slotted(div:hover){
   border-bottom: 4px solid #D4A281;
 }
-.hover-br5 ::slotted(a:hover){
+.hover-br5 ::slotted(div:hover){
   border-bottom: 4px solid #CE9C7B;
 }
-.hover-br6 ::slotted(a:hover){
+.hover-br6 ::slotted(div:hover){
   border-bottom: 4px solid #BE8C6B;
 }
-.hover-br7 ::slotted(a:hover){
+.hover-br7 ::slotted(div:hover){
   border-bottom: 4px solid #AE7C5B;
 }
-.hover-br8 ::slotted(a:hover){
+.hover-br8 ::slotted(div:hover){
   border-bottom: 4px solid #9E6C4B;
 }
-.hover-br9 ::slotted(a:hover){
+.hover-br9 ::slotted(div:hover){
   border-bottom: 4px solid #8E5C3B;
 }
-.hover-br10 ::slotted(a:hover){
+.hover-br10 ::slotted(div:hover){
   border-bottom: 4px solid #6e3c1b;
 }
 

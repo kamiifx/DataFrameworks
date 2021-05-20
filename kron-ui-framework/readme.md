@@ -1,5 +1,4 @@
 ## Kron UI
-
 [![Logo](https://i.gyazo.com/fb1a9607aa6bba5deb89738b64027ac0.png)](https://github.com/kamiifx/Kron-UI-Framework)
 
 > Kron UI is a simple UI Framework that helps create
@@ -21,10 +20,10 @@ yarn add kron-ui
 
 #### Vanilla JavaScript Setup
 
-_If you are unsure how to install, you will need a package manager. Easiest way is to install [**NodeJS**](https://nodejs.org/en/)
-to get [**Npm**](https://www.npmjs.com) chances are you already have this installed aswell, you can check you version
-by writing `node -v` in the terminal. Make sure you have a version > 13.
-With Node you get npm._
+*If you are unsure how to install, you will need a package manager. Easiest way is to install [**NodeJS**](https://nodejs.org/en/)
+to get [**Npm**](https://www.npmjs.com) chances are you already have this installed aswell, you can check you version 
+by writing ```node -v``` in the terminal. Make sure you have a version > 13.
+With Node you get npm.*
 
 ```shell
 npm init
@@ -35,44 +34,42 @@ yarn init
 After initialization, install Kron-UI as shown in the installation above.
 And you can starting importing Kron-UI by refrencing to it with the script tag :
 
-```html
-<script src="node_modules/kron-ui/dist/kron-ui/kron-ui.js"></script>
+```html  
+<script src="node_modules/kron-ui/dist/kron-ui/kron-ui.js"></script> 
 ```
 
-Your `<head>` should look like this:
+Your ``` <head> ``` should look like this:
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Awsome Site</title>
     <script src="node_modules/kron-ui/dist/kron-ui/kron-ui.js"></script>
-  </head>
-</html>
+</head>
 ```
-
 Thats it! You have Kron UI setup in your project.
+
 
 #### React Setup
 
 Coming soon-
 
+
 ### Components & Properties
 
-All components uses the `appearance` attribute for their styles, and some have component specific attributes
-that is documentet for each component below.
+All components uses the ```appearance``` attribute for their styles, and some have component specific attributes
+that is documentet for each component below. 
 
 #### Colors
 
-Colors are used within the `appearance` property as well as for color intensity, example:
-
+Colors are used within the ```appearance``` property as well as for color intensity, example:
 ```html
-<kron-componenttype appearance="blue4"></kron-componenttype>
+<kron-componenttype appearance='blue4'></kron-componenttype>
 ```
-
-`blue` is the color and `4` is the intensity of the color blue. Put togheter we get `blue4`.
+``` blue ``` is the color and ```4``` is the intensity of the color blue. Put togheter we get ```blue4```.
 All the colors have an intensity from 1 to 10.
 
 ##### Colors Available
@@ -87,13 +84,10 @@ All the colors have an intensity from 1 to 10.
 - Gray
 
 ### Components
-
 #### Button
-
 ```html
 <kron-button>Im a button!<kron-button></kron-button></kron-button>
 ```
-
 ![Button](https://i.gyazo.com/d940454f2366b333f2e4fe99ccabdf8f.png)
 
 Properties `kron-button`
@@ -114,41 +108,87 @@ Example usage
 <kron-button appearance="bg-none">Styled Button!</kron-button>
 ```
 
+#### Menu
+*Menu is only activated by hovering for now.*
+```html
+  <kron-menu menu='Sort By'>
+    <a href='=asc'>Ascending Order</a>
+    <a href='=desc'>Descending Order</a>
+  <kron-menu>
+```
+![Menu](https://i.gyazo.com/fb589532486ad1429d337e9c1d78af48.png)
+
+Properties ``` kron-menu ```
+| properties | attributes                                             |
+| ---------- | ------------------------------------------------------ |
+| appearance | color,b-color,h-color,sm,md,lg,font-sm,font-md,font-lg |
+| menu       | "text"                                                 |
+
+|attributes               | examples                                        |
+| ----------------------- | ----------------------------------------------- |
+|color = background color | blue10 : color + intensity(1-10)                |
+|b-color = border color   | b-blue10 : b-color + intensity(1-10)            |
+|h-color = hover color    | h-blue10 : b-color + intensity(1-10)            |
+|sm = small button size   | sm                                              |
+|md = medium button size  | md                                              |
+|lg = large button size   | lg                                              |
+|font-sm = small font size| font-sm                                         |
+|font-md = medium font size | font-md                                       |
+|font-lg = large font size  | font-lg                                       |
+
+```html
+  Example Usage
+  <kron-menu menu='Sort By' appearance='blue3 b-blue5 h-green3 sm font-sm'>
+  <a href='=asc'>Ascending Order</a>
+  <a href='=desc'>Descending Order</a>
+  <kron-menu>
+```
+
 #### Navbar
 
 ```html
+<kron-navbar> </kron-navbar>
+```
+
+Properties ``` kron-navbar ```
+| properties | attributes                      |
+| ---------- | ------------------------------- |
+| appearance | color,hover-c,                  |
+| navlogo    | "Text"                          |
+| contactlogo| "Text"                          |
+
+|attributes               | examples                                        |
+| ----------------------- | ----------------------------------------------- |
+|color = background color | blue10 : color + intensity(1-10)                |
+|hover-c = hover color    | hover-b10 : hover color + intensity(1-10)           |
+
+```html
+Example usage
 <kron-navbar appearance="blue5 hover-b8" contactlogo="Contact us!" navlogo="Testpage">
   <a href="#"> Home </a>
   <a href="#"> Page 2 </a>
 </kron-navbar>
 ```
-
-Attributes for kron-navbar
-| appearance | navlogo | contactlogo |
-| ------ | ----- | ---- |
-| color | String | String |
-| hover- | | |
-
 ![Navbar](https://gyazo.com/924494b63778ae25cc7817796ef460d7.png)
 
 #### Box
 
 ```html
-<kron-box appearance="flex-row-wrap">
-  <div>1</div>
-  <div>2</div>
-</kron-box>
+<kron-box> </kron-box>
 ```
+Properties ``` kron-box ```
+| properties | attributes                      |
+| ---------- | ------------------------------- |
+| appearance | color,hover-c, flex-row-wrap, flex-column-wrap                  |
 
 Attributes for kron-box
-| appearance |
-| ------ |  
-| color |  
-| hover- |  
-| flex-row-wrap |  
-| flex-column-wrap |
+| Attributes | Example    |
+| ------     |                                                          -------      |
+| color = background color|    blue10 : color + intensity(1-10)                      |
+| hover-c = hover color   |    hover-b10 : hover + color + intensity(1-10)           |
+| flex-row-wrap           |    vertically placing the divs                           |
+| flex-column-wrap        |    horisontally placing the divs                         |
 
-![box](https://gyazo.com/56b5d1a9eb6e09a989e6bac03b17a1c9.png)
 
 #### Article
 
