@@ -320,7 +320,10 @@ Properties `kron-form`
 | small = font-size                     | small font size                                               |small |
 | placement website = center left right | floating center, floating left, floating right                |center |
 
-its important to notice that you need to use the div=slot or you want get the nice coloring in the bacground like showed in the picture up. in this example we are using the kron-figure so that the styling is in the decorator property appearance and appearance-Image. Making it better looking. 
+`Nesting comopnents`
+kron-form show you the ability for nestin the components.
+Its importants that you add div slot="name" for adding kron-figure inside the form or whant get the kron-figure to work. Remember that you can follow the documentation for the kron-figure for adding styling for the component.
+
 
 ```html
 <kron-form appearance="large serif center" image="true">
