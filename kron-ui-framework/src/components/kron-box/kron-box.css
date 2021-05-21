@@ -35,273 +35,273 @@
 /* 
 Red
 */
-.red1{
+.red1 ::slotted(div) {
   background-color:#FFCCBC;
 }
-.red2{
+.red2 ::slotted(div) {
   background-color:#FFAC9C;
 }
-.red3{
+.red3 ::slotted(div) {
   background-color: #FF8C7C;
 }
-.red4{
+.red4 ::slotted(div){
   background-color: #FF7C6C;
 }
-.red5{
+.red5 ::slotted(div){
   background-color: #FF6C5C;
 }
 
-.red6{
+.red6 ::slotted(div){
   background-color:#F75C4C;
 }
-.red7{
+.red7 ::slotted(div){
   background-color: #E74C3C;
 }
-.red8{
+.red8 ::slotted(div){
   background-color: #D73C2C;
 }
-.red9{
+.red9 ::slotted(div){
   background-color: #C72C1C;
 }
-.red10{
+.red10 ::slotted(div){
   background-color: #B71C0C;
 }
 /* 
 Blue
 */
-.blue1{
+.blue1 ::slotted(div){
   background-color: #39d5ff;
 }
-.blue2{
+.blue2 ::slotted(div){
   background-color: #29c5ff;
 }
-.blue3{
+.blue3 ::slotted(div){
   background-color: #19B5FE;
 }
-.blue4{
+.blue4 ::slotted(div){
   background-color: #22A7F0;
 }
-.blue5{
+.blue5 ::slotted(div){
   background-color:#1297e0;
 }
-.blue6{
+.blue6 ::slotted(div){
   background-color: #0287d0;
 }
-.blue7{
+.blue7 ::slotted(div){
   background-color: #0077c0;
 }
-.blue8{
+.blue8 ::slotted(div){
   background-color: #0067b0;
 }
-.blue9{
+.blue9 ::slotted(div){
   background-color: #0057a0;
 }
-.blue10{
+.blue10 ::slotted(div){
   background-color:#004790;
 }
 /*
 Grey
 */
-.grey1{
+.grey1 ::slotted(div){
   background-color: #e0e0e0;
 }
-.grey2{
+.grey2 ::slotted(div){
   background-color: #d0d0d0;
 }
-.grey3{
+.grey3 ::slotted(div){
   background-color: #c0c0c0;
 }
-.grey4{
+.grey4 ::slotted(div){
   background-color: #a0a0a0;
 }
-.grey5{
+.grey5 ::slotted(div){
   background-color: #909090;
 }
-.grey6{
+.grey6 ::slotted(div){
   background-color: #808080;
 }
-.grey7{
+.grey7 ::slotted(div){
   background-color: #707070;
 }
-.grey8{
+.grey8 ::slotted(div){
   background-color: #606060;
 }
-.grey9{
+.grey9 ::slotted(div){
   background-color: #505050;
 }
-.grey10{
+.grey10 ::slotted(div){
   background-color: #404040;
 }
 /*
 gray
 */
-.gray1{
+.gray1 ::slotted(div){
   background-color: #c5d3e2;
 }
-.gray2{
+.gray2 ::slotted(div){
   background-color: #bccad9;
 }
-.gray3{
+.gray3 ::slotted(div){
   background-color: #acbac9;
 }
-.gray4{
+.gray4 ::slotted(div){
   background-color: #9caab9;
 }
-.gray5{
+.gray5 ::slotted(div){
   background-color: #8c9aa9;
 }
-.gray6{
+.gray6 ::slotted(div){
   background-color: #7c8a99;
 }
-.gray7{
+.gray7 ::slotted(div){
   background-color: #6C7A89;
 }
-.gray8{
+.gray8 ::slotted(div){
   background-color: #5c6a79;
 }
-.gray9{
+.gray9 ::slotted(div){
   background-color: #4c5a69;
 }
-.gray10{
+.gray10 ::slotted(div){
   background-color: #3c4a59;
 }
 /*
  Yellow 
 */
-.yellow1{
+.yellow1 ::slotted(div){
   background-color: #FDE3A7;
 }
-.yellow2{
+.yellow2 ::slotted(div){
   background-color: #ffcf4b;
 }
-.yellow3{
+.yellow3 ::slotted(div){
   background-color: #F9BF3B;
 }
-.yellow4{
+.yellow4 ::slotted(div){
   background-color: #f9b32f;
 }
-.yellow5{
+.yellow5 ::slotted(div){
   background-color: #F5AB35;
 }
-.yellow6{
+.yellow6 ::slotted(div){
   background-color: #F39C12;
 }
-.yellow7{
+.yellow7 ::slotted(div){
   background-color: #f1892d;
 }
-.yellow8{
+.yellow8 ::slotted(div){
   background-color: #e67e22;
 }
-.yellow9{
+.yellow9 ::slotted(div){
   background-color: #d87400;
 }
-.yellow10{
+.yellow10 ::slotted(div){
   background-color: #c86100;
 }
 /*
 Green
 */
-.green1{
+.green1 ::slotted(div){
   background-color: #8effc1;
 }
-.green2{
+.green2 ::slotted(div){
   background-color: #5efca1;
 }
-.green3{
+.green3 ::slotted(div){
   background-color: #4eec91;
 }
-.green4{
+.green4 ::slotted(div){
   background-color: #3edc81;
 }
-.green5{
+.green5 ::slotted(div){
   background-color: #2ecc71;
 }
-.green6{
+.green6 ::slotted(div){
   background-color: #1ebc61;
 }
-.green7{
+.green7 ::slotted(div){
   background-color: #0eac51;
 }
-.green8{
+.green8 ::slotted(div){
   background-color: #009c41;
 }
-.green9{
+.green9 ::slotted(div){
   background-color: #008c31;
 }
-.green10{
+.green10 ::slotted(div){
   background-color:#007c21;
 }
 /*
 Pink
 */
-.pink1{
+.pink1 ::slotted(div){
   background-color: #FFBCD8;
 }
-.pink2{
+.pink2 ::slotted(div){
   background-color: #FF8CC8;
 }
 
-.pink3{
+.pink3 ::slotted(div){
   background-color: #FF7CB8;
 }
 
-.pink4{
+.pink4 ::slotted(div){
   background-color: #FF6CA8;
 }
 
-.pink5{
+.pink5 ::slotted(div){
   background-color:#FA5C98;
 }
 
-.pink6{
+.pink6 ::slotted(div){
   background-color: #DA3C78;
 }
 
-.pink7{
+.pink7 ::slotted(div){
   background-color: #CA2C68;
 }
 
-.pink8{
+.pink8 ::slotted(div){
   background-color: #BA1C58;
 }
 
-.pink9{
+.pink9 ::slotted(div){
   background-color: #BA1C58;
 }
-.pink10{
+.pink10 ::slotted(div){
   background-color: #9A0038;
 }
 /*
 Brown
 */
-.brown1{
+.brown1 ::slotted(div){
   background-color: #F6C4A3;
 }
-.brown2{
+.brown2 ::slotted(div){
   background-color: #EAB897;
 }
-.brown3{
+.brown3 ::slotted(div){
   background-color: #DFAD8C;
 }
-.brown4{
+.brown4 ::slotted(div){
   background-color: #D4A281;
 }
-.brown5{
+.brown5 ::slotted(div){
   background-color: #CE9C7B;
 }
-.brown6{
+.brown6 ::slotted(div){
   background-color: #BE8C6B;
 }
-.brown7{
+.brown7 ::slotted(div){
   background-color: #AE7C5B;
 }
-.brown8{
+.brown8 ::slotted(div){
   background-color: #9E6C4B;
 }
-.brown9{
+.brown9 ::slotted(div){
   background-color: #8E5C3B;
 }
-.brown10{
+.brown10 ::slotted(div){
   background-color: #6e3c1b;
 }
 /*
