@@ -16,7 +16,7 @@
 }
 
 .large{
-  font-size: medium;
+  font-size: large;
 }
 
 .medium{
@@ -25,19 +25,6 @@
 
 .small{
   font-size: small;
-}
-
-.right{
-  float: right;
-}
-
-.left{
-  float: left;
-}
-
-.center{
-  margin-left: 50%;
-  margin-right: 50%;
 }
 
 .textRight{
@@ -83,7 +70,7 @@
 .red10{
   background-color: var(--r-5);
 }
-/* 
+/*
 Blue
 */
 .blue1{
@@ -183,7 +170,7 @@ gray
   background-color: var(--ge-10);
 }
 /*
- Yellow 
+ Yellow
 */
 .yellow1{
   background-color: var(--y-1);
