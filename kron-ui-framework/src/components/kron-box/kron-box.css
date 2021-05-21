@@ -1,15 +1,15 @@
 .flex-row-wrap{
-  display: flex;     
-  flex-direction: row;    
-    height: auto;  
-    flex-wrap: wrap;   
+  display: flex;
+  flex-direction: row;
+    height: auto;
+    flex-wrap: wrap;
     max-width: 100%;
 }
 
 .flex-row-wrap ::slotted(div){
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   width: 250px;
   height: auto;
   margin: 10px;
@@ -17,13 +17,14 @@
   word-wrap: break-word;
   padding-left: 4px;
   padding-right: 4px;
+  border-radius: 4px;
 }
 
 .flex-column-wrap{
-   display: flex;     
-    flex-direction: column;    
-    height: auto;  
-    flex-wrap: wrap;   
+   display: flex;
+    flex-direction: column;
+    height: auto;
+    flex-wrap: wrap;
     max-width: 100%;
 }
 .flex-column-wrap ::slotted(div){
@@ -39,7 +40,7 @@
   padding-right: 4px;
 }
 /*Colors*/
-/* 
+/*
 Red
 */
 .red1 ::slotted(div) {
@@ -73,7 +74,7 @@ Red
 .red10 ::slotted(div){
   background-color: #B71C0C;
 }
-/* 
+/*
 Blue
 */
 .blue1 ::slotted(div){
@@ -173,7 +174,7 @@ gray
   background-color: #3c4a59;
 }
 /*
- Yellow 
+ Yellow
 */
 .yellow1 ::slotted(div){
   background-color: #FDE3A7;

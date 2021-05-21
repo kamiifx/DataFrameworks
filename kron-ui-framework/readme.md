@@ -334,3 +334,10 @@ Its importants that you add div slot="name" for adding kron-figure inside the fo
   <input type="text" name="fornavn" placeholder="  Fornavn" required />
   <button>knapp</button>
 </kron-form>
+```
+
+## Adding it all up
+Adding all the different components togheter creating a our own example ecommerce page.
+Code: https://pastebin.com/QfxSngAA
+
+![All](https://i.gyazo.com/7e4a3943bf9508b14ac7b1f2b356f3b5.png)
