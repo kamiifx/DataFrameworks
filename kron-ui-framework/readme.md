@@ -309,6 +309,8 @@ Properties `kron-form`
 | small = font-size                     | small font size                                               |
 | placement website = center left right | floating center, floating left, floating right                |
 
+its important to notice that you need to use the div=slot or you want get the nice coloring in the bacground like showed in the picture up. in this example we are using the kron-figure so that the styling is in the decorator property appearance and appearance-Image. Making it better looking. 
+
 ```html
 <kron-form appearance="large serif center" image="true">
   <div slot="start">
