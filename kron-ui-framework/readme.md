@@ -223,7 +223,7 @@ Example usage
 Properties `kron-article`
 | properties | attributes |
 | ---------- | ------------------------------- |
-| appearance | serif, sans-serif, monospace, fantasy, large, medium, small, right, center, left|
+| appearance | serif, sans-serif, monospace, fantasy, large, medium, small, right, center, left, textRight, textLeft, textCenter |
 
 
 | attributes                 | explanation                                                   | example      |
@@ -235,8 +235,12 @@ Properties `kron-article`
 | large = font-size          | big font size                                                 | large |
 | medium = font-size         | medium font size                                              |medium |
 | small = font-size          | small font size                                               | small |
-| placement website = center left right | floating center, floating left, floating right     |center |
-|color = background color | all the available color| blue10 : color + intensity(1-10)                |
+| center left right = placement website | floating center, floating left, floating right     |center |
+|color = background color | all the available color| blue10 : color + intensity(1-10)        |
+| textRight = text-align right | places in the right side of the article tagg | textRight|
+| textLeft = text-align left | places in the left side of the article tagg | textLeft|
+| textCenter = text-align Center | places in the middle  side of the article tagg | textCenter|
+
 
 
 
@@ -276,7 +280,7 @@ Properties `kron-figure`
 | large = font-size          | big font size                                                 | large |
 | medium = font-size         | medium font size                                              |medium |
 | small = font-size          | small font size                                               | small |
-| placement website = center left right | floating center, floating left, floating right     |center |
+| center left right =   placement website | floating center, floating left, floating right     |center |
 
 
 |propterties in appearance-Fig| example |
@@ -318,7 +322,7 @@ Properties `kron-form`
 | large = font-size                     | big font size                                                 |large |
 | medium = font-size                    | medium font size                                              |medium |
 | small = font-size                     | small font size                                               |small |
-| placement website = center left right | floating center, floating left, floating right                |center |
+| center left right    = placement website| floating center, floating left, floating right                |center |
 
 `Nesting comopnents`
 kron-form show you the ability for nestin the components.
