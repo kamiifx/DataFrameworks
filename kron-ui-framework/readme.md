@@ -235,6 +235,10 @@ Properties `kron-article`
 | large = font-size          | big font size                                                 | large |
 | medium = font-size         | medium font size                                              |medium |
 | small = font-size          | small font size                                               | small |
+| placement website = center left right | floating center, floating left, floating right     |center |
+|color = background color | all the available color| blue10 : color + intensity(1-10)                |
+
+
 
 ```html
 <kron-article appearance="large serif center red1">
@@ -258,7 +262,7 @@ Properties `kron-figure`
 | appearance-Image | radius, size |
 | img| src: enters image address |
 | alt| string value if image doesnt show |
-| appearance-Fig |string value for figcaption output |
+| appearance-Fig |figcaption-10 to figcaption-60 |
 
 | attributes                 | explanation                                                   | example      |
 | -------------------------- | ------------------------------------------------------------- |--------      |
@@ -268,9 +272,12 @@ Properties `kron-figure`
 | fantasy = font-family      | Copperplate + Papyrus                                         | fantasy |
 | radius = radius size image | radius-size10: radius intensity increasing 10 each time to 60 |radius-20 |
 | size = size image          | size increasing 10 each time to 60                            |size-10  |
+| figcaption = center figacption| size increase from 10 each time to 60 |figcaption-10|
 | large = font-size          | big font size                                                 | large |
 | medium = font-size         | medium font size                                              |medium |
 | small = font-size          | small font size                                               | small |
+| placement website = center left right | floating center, floating left, floating right     |center |
+
 
 |propterties in appearance-Fig| example |
 |img = src                  | put in image adresse | "https://imgcomfort.com/Userfiles/Upload/images/illustration-geiranger.jpg"
