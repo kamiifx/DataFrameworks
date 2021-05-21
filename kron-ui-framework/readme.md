@@ -225,15 +225,16 @@ Properties `kron-article`
 | ---------- | ------------------------------- |
 | appearance | serif, sans-serif, monospace, fantasy, large, medium, small, right, center, left|
 
-| attributes               | examples                          |
-| ------------------------ | --------------------------------- |
-| serif = font-family      | Times New Roman + Times + serif   |
-| sans-serif = font-family | Arial + Helvetica + sans-serif    |
-| monospace = font-family  | Courier New + Courier + monospace |
-| fantasy = font-family    | Copperplate + Papyrus             |
-| large = font-size        | big font size                     |
-| medium = font-size       | medium font size                  |
-| small = font-size        | small font size                   |
+
+| attributes                 | explanation                                                   | example      |
+| -------------------------- | ------------------------------------------------------------- |--------      |
+| serif = font-family        | Times New Roman + Times + serif                               | sans|
+| sans-serif = font-family   | Arial + Helvetica + sans-serif                                | sans-serif|
+| monospace = font-family    | Courier New + Courier + monospace                             | monospace |
+| fantasy = font-family      | Copperplate + Papyrus                                         | fantasy |
+| large = font-size          | big font size                                                 | large |
+| medium = font-size         | medium font size                                              |medium |
+| small = font-size          | small font size                                               | small |
 
 ```html
 <kron-article appearance="large serif center red1">
@@ -259,18 +260,21 @@ Properties `kron-figure`
 | alt| string value if image doesnt show |
 | appearance-Fig |string value for figcaption output |
 
-| attributes                 | examples                                                      |
-| -------------------------- | ------------------------------------------------------------- |
-| serif = font-family        | Times New Roman + Times + serif                               |
-| sans-serif = font-family   | Arial + Helvetica + sans-serif                                |
-| monospace = font-family    | Courier New + Courier + monospace                             |
-| fantasy = font-family      | Copperplate + Papyrus                                         |
-| radius = radius size image | radius-size10: radius intensity increasing 10 each time to 60 |
-| size = size image          | size increasing 10 each time to 60                            |
-| large = font-size          | big font size                                                 |
-| medium = font-size         | medium font size                                              |
-| small = font-size          | small font size                                               |
+| attributes                 | explanation                                                   | example      |
+| -------------------------- | ------------------------------------------------------------- |--------      |
+| serif = font-family        | Times New Roman + Times + serif                               | sans|
+| sans-serif = font-family   | Arial + Helvetica + sans-serif                                | sans-serif|
+| monospace = font-family    | Courier New + Courier + monospace                             | monospace |
+| fantasy = font-family      | Copperplate + Papyrus                                         | fantasy |
+| radius = radius size image | radius-size10: radius intensity increasing 10 each time to 60 |radius-20 |
+| size = size image          | size increasing 10 each time to 60                            |size-10  |
+| large = font-size          | big font size                                                 | large |
+| medium = font-size         | medium font size                                              |medium |
+| small = font-size          | small font size                                               | small |
 
+|propterties in appearance-Fig| example |
+|img = src                  | put in image adresse | "https://imgcomfort.com/Userfiles/Upload/images/illustration-geiranger.jpg"
+|alt = alt for descriping the image | "change text inside quotation marks" | 
 ```html
 <kron-figure
   appearance="center"
@@ -293,21 +297,21 @@ Properties `kron-figure`
 Properties `kron-form`
 | properties | attributes |
 | ---------- | ------------------------------- |
-| appearance | serif, sans-serif, monospace, fantasy right, center, left |
+| appearance | serif, sans-serif, monospace, fantasy right, center, left, large, medium, small |
 | image |true = having picture, false = remove picture |
 
-| attributes                            | examples                                                      |
-| ------------------------------------- | ------------------------------------------------------------- |
-| serif = font-family                   | Times New Roman + Times + serif                               |
-| sans-serif = font-family              | Arial + Helvetica + sans-serif                                |
-| monospace = font-family               | Courier New + Courier + monospace                             |
-| fantasy = font-family                 | Copperplate + Papyrus                                         |
-| radius = radius size image            | radius-size10: radius intensity increasing 10 each time to 60 |
-| size = size image                     | size increasing 10 each time to 60                            |
-| large = font-size                     | big font size                                                 |
-| medium = font-size                    | medium font size                                              |
-| small = font-size                     | small font size                                               |
-| placement website = center left right | floating center, floating left, floating right                |
+| attributes                            | explanation                                                   | example  | 
+| ------------------------------------- | ------------------------------------------------------------- |-------   |
+| serif = font-family                   | Times New Roman + Times + serif                               | serif    |
+| sans-serif = font-family              | Arial + Helvetica + sans-serif                                |sans-serif|
+| monospace = font-family               | Courier New + Courier + monospace                             |monospace |
+| fantasy = font-family                 | Copperplate + Papyrus                                         |fantasy   |
+| radius = radius size image            | radius-size10: radius intensity increasing 10 each time to 60 | radius-30 |
+| size = size image                     | size increasing 10 each time to 60                            |size 30|
+| large = font-size                     | big font size                                                 |large |
+| medium = font-size                    | medium font size                                              |medium |
+| small = font-size                     | small font size                                               |small |
+| placement website = center left right | floating center, floating left, floating right                |center |
 
 its important to notice that you need to use the div=slot or you want get the nice coloring in the bacground like showed in the picture up. in this example we are using the kron-figure so that the styling is in the decorator property appearance and appearance-Image. Making it better looking. 
 
